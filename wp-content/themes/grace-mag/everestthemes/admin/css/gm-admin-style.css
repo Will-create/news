@@ -1,0 +1,130 @@
+/*
+Widget at Apperence > widgets 
+*/
+
+.widgets-holder-wrap [id*="grace-mag-"] .widget-top {
+
+    background: #94dccf;
+    color: #fff !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.rad,
+.ckb{
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+}
+
+.ckb > input{ /* HIDE ORG RADIO & CHECKBOX */
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* RADIO & CHECKBOX STYLES */
+/* DEFAULT <i> STYLE */
+.rad input[type=radio],
+.ckb > i{ 
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 50%;
+    transition: 0.2s;
+    box-shadow: inset 0 0 0 8px #fff;
+    border: 1px solid gray;
+    background: gray;
+}
+
+.rad input[type=radio]:checked{ 
+    box-shadow: inset 0 0 0 3px #fff;
+    transition: 0.2s;
+}
+
+/* CHECKBOX OVERWRITE STYLES */
+.ckb > i {
+    width: 25px;
+    border-radius: 3px;
+    margin-right: 5px;
+}
+
+/* CHECKBOX */
+.ckb > input + i:after{
+    content: "";
+    display: block;
+    height: 12px;
+    width:  12px;
+    margin: 2px;
+    border-radius: inherit;
+    transition: inherit;
+    background: gray;
+}
+
+.ckb > input:checked + i:after{ 
+    margin-left: 11px;
+    background:  #1e8cbe;
+}
+.rad .rad-image {
+    height: 100px;
+    width: 40%;
+    padding: 5px 0px;
+}
+input[type=checkbox].tgl:checked + .tgl-btn:after {
+    left: auto;
+    right: 50%;
+}
+@media screen and (max-width: 782px) {
+    .rad .rad-image{
+        width:35%;
+    }
+    .rad input[type=radio],
+    .ckb > i {
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 50%;
+        transition: 0.2s;
+        box-shadow: inset 0 0 0 8px #fff;
+        background: gray;
+    }
+    
+    .rad input[type=radio]:checked{ 
+        box-shadow: inset 0 0 0 8px #fff;
+        background:  #1e8cbe;
+        display: inline-block;
+        vertical-align: middle;
+        transition: 0.2s;
+    }
+    
+    .ckb > i {
+        width: 25px;
+        border-radius: 3px;
+        margin-right: 5px;
+    }
+    
+}
+
+@media screen and (max-width:520px) {
+    .rad .rad-image{
+        width:100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width:2000px) {
+    .rad .rad-image{
+        height: 100px;
+        width: 100px;
+    }
+}
+
+/* Description for layouts*/
+
+.description-layout{
+    display:none;
+}
+
+.description-layout.active-layout{
+    display:block;
+}

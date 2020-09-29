@@ -1,0 +1,368 @@
+/*
+Theme Name: Graphene
+*/
+
+
+/* =Common elements
+-------------------------------------------------------------- */
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+
+/* =Header
+-------------------------------------------------------------- */
+
+.navbar-header {
+	float: none;
+}
+#profiles a {
+	float: none;
+	margin: 0 5px;
+}
+#footer .social-profiles {
+    text-align: left;
+}
+#footer .social-profile {
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+
+/* =Navigation
+-------------------------------------------------------------- */
+
+.navbar .nav > li {
+	border-width: 0 0 0 1px;
+}
+.dropdown-submenu > .dropdown-menu {
+	left: auto;
+	right: 100%;
+}
+
+
+/* =Slider
+-------------------------------------------------------------- */
+
+.carousel-control.left {
+	left: auto;
+	right: 20px;
+}
+.carousel-control.right {
+	right: auto;
+	left: 20px;
+}
+.carousel-control .fa-long-arrow-left::before {
+	content: "\f178";
+	margin-right: 0;
+	margin-left: -8px;
+}
+.carousel-control .fa-long-arrow-right::before {
+	content: "\f177";
+	margin-left: 0;
+	margin-right: -8px;
+}
+.carousel-caption {
+	left: auto;
+	right: 0;
+	text-align: right;
+}
+.carousel .post-meta .fa {
+	margin-left: 3px;
+}
+.carousel.style-banner .carousel-caption {
+	background: linear-gradient(to left, rgba(0,0,0,0.7) 10%, transparent);
+}
+
+
+/* =Content Area
+-------------------------------------------------------------- */
+
+.post-nav-top .fa-arrow-circle-left:before {
+	content: "\f0a9";
+}
+.post-nav-top .fa-arrow-circle-right:before {
+	content: "\f0a8";
+}
+.post-nav-top .next-post {
+	text-align: left;
+}
+
+.post-meta p,
+.post-meta ul,
+.post-meta li {
+	float: right;
+}
+.post .date {
+	margin-right: 0;
+	margin-left: 10px;
+	float: right;
+}
+.post-meta li {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.post-meta .post-author,
+.post-meta .edit-post,
+.post-meta .post-date-inline,
+.email,
+.print,
+.post-format .edit-post, 
+.post-format .comment-link {
+	float: left;
+}
+.post-meta .edit-post,
+.post-meta .post-date-inline,
+.print,
+.email {
+	margin-right: 5px;
+	margin-left: 0;
+}
+.post-format .edit-post, 
+.post-format .comment-link {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.post-avatar-wrap {
+	float: left;
+}
+.entry-content ol,
+.entry-content ul {
+    padding: 5px 20px 5px 0;
+    margin: 0;
+}
+.entry-content li ol,
+.entry-content li ul {
+    padding: 0 20px 0 0;
+}
+.page-links .pagination {
+	padding-left: 0;
+	padding-right: 10px;
+}
+.pagination .fa-angle-left:before {
+	content: "\f105";
+}
+.pagination .fa-angle-right:before {
+	content: "\f104";
+}
+.entry-content .excerpt-thumb img,
+.child-page .excerpt-thumb img{
+	float: left;
+	margin: 0 1em 0 0;
+}
+blockquote cite,
+p cite {
+	text-align: left;
+}
+.entry-footer .fa {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.comment-link {
+	float: left;
+	text-align: left;
+}
+.add-this,
+.add-this-right {
+	float: right;
+}
+.add-this-right {
+	float: left;
+	margin: 0 1em 1em 0;
+}
+.post-tags {
+	float: right;
+}
+.single .author_h4 {
+	margin: 15px 10px 5px 0;
+}
+.author-entry .avatar,
+.author-info .avatar {
+	float: right;
+}
+.author-info .avatar {
+    margin-right: 0;
+}
+.author-entry h2,
+.author-entry .entry-content {
+	float: left;
+}
+.author-entry .entry-content {
+	clear: left;
+}
+.previous {
+	float: right;
+}
+.next-post {
+	float: left;
+	text-align: left;
+}
+.post-nav-top .next-post .fa {
+	margin-left: 0;
+	margin-right: 5px;
+}
+.post-nav-top .previous .fa,
+.parent-return .fa {
+	margin-left: 5px;
+	margin-right: 0;
+}
+.gallery-columns-2 .gallery-item:nth-child(3n+1) {
+    margin-left: 1% !important;
+    margin-right: 0 !important;
+}
+.gallery-columns-2 .gallery-item:nth-child(3n+2) {
+    margin-right: 1% !important;
+    margin-left: 0 !important;
+}
+.gallery-columns-3 .gallery-item:nth-child(4n+1) {
+    margin-left: 1% !important;
+    margin-right: 0 !important;
+}
+.gallery-columns-3 .gallery-item:nth-child(4n+3) {
+    margin-right: 1% !important;
+    margin-left: 0 !important;
+}
+.gallery-columns-4 .gallery-item:nth-child(5n+1) {
+    margin-left: 1% !important;
+    margin-right: 0 !important;
+}
+.gallery-columns-4 .gallery-item:nth-child(5n+4) {
+    margin-right: 1% !important;
+    margin-left: 0 !important;
+}
+.gallery-columns-5 .gallery-item:nth-child(6n+1) {
+    margin-left: 1% !important;
+    margin-left: 0 !important;
+}
+.gallery-columns-5 .gallery-item:nth-child(6n+5) {
+    margin-right: 1% !important;
+    margin-right: 0 !important;
+}
+.gallery-columns-6 .gallery-item:nth-child(7n+1) {
+    margin-left: 1% !important;
+    margin-right: 0 !important;
+}
+.gallery-columns-6 .gallery-item:nth-child(7n+6) {
+    margin-right: 1% !important;
+    margin-left: 0 !important;
+}
+h3.author-post-list .fa {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+
+/* =Comments
+-------------------------------------------------------------- */
+
+#comments > h4 {
+	float: right;
+	margin-right: 0;
+	margin-left: 25px;
+}
+#comments > h4 .fa {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.comment-form-jump {
+	float: left;
+}
+.comment-meta li {
+	margin-right: 0;
+	margin-left: 5px;
+}
+#cancel-comment-reply-link {
+	margin-left: 0;
+	margin-right: 1em;
+}
+h3#reply-title .fa {
+	margin-right: 0;
+	margin-left: 5px;
+}
+.comment-entry ol,
+.comment-entry ul {
+	margin: 5px 20px 10px 0;
+}
+
+
+/* =Sidebars
+-------------------------------------------------------------- */
+
+#wp-calendar #prev {
+	text-align: right;
+}
+#wp-calendar #next {
+	text-align: left;
+}
+.sidebar ol {
+	list-style-position: outside;
+	margin-right: 29px;
+	margin-left: 0;
+}
+.sidebar ol ol,
+.sidebar ul ul {
+	margin-left: 20px;
+}
+
+
+/* =The homepage panes
+-------------------------------------------------------------- */
+
+.homepage_panes .omega {
+	float: left;
+}
+.homepage_pane .post-comments{
+	margin-left: 0;
+}
+
+
+/* =Footer
+-------------------------------------------------------------- */
+
+.footer-right {
+    float: left;
+}
+.copyright-developer {
+    float: right;
+}
+.footer-menu-wrap {
+	text-align: left;
+}
+.footer-menu-wrap .menu > li {
+	padding-left: 0;
+	margin-left: 0;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+.footer-menu-wrap .menu > li.menu-item-has-children {
+    text-align: right;
+}
+.footer-menu-wrap .sub-menu {
+    text-align: right;
+}
+#back-to-top {
+	right: auto;
+	left: 20px;
+}
+
+
+/* =Shortcode blocks
+-------------------------------------------------------------- */
+
+.message-block {
+	padding: 5px 50px 5px 10px;
+}
+.warning_block,
+.error_block,
+.notice_block,
+.important_block {
+    background-position: 99% 7px;
+}
+
+/* WPStats */
+#wpstats {
+	left: auto;
+	right: 0;
+}

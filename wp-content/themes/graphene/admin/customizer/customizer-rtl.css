@@ -1,0 +1,51 @@
+.wp-full-overlay.expanded {
+	margin-left: auto;
+	margin-right: 500px;
+}
+.width-wrap-left,
+.width-wrap-center {
+	float: right;
+}
+.width-wrap-center {
+	margin-left: auto;
+	margin-right: 28%;
+}
+.width-wrap-right {
+	float: left;
+}
+.graphene-sortable .customize-control-title .fa {
+	padding-left: 5px;
+	padding-right: 0;
+}
+.status-icon {
+	margin-right: 5px;
+	margin-left: 0;
+}
+.graphene-sortable .delete,
+.graphene-repeatable .delete,
+.graphene-sortable .move {
+	right: auto;
+	left: 10px;
+}
+.graphene-sortable .delete {
+	right: auto;
+	left: 35px;
+}
+.slider-legend.alignright {
+	text-align: left;
+}
+.slider-legend.alignmiddle {
+	float: right;
+}
+.new-label {
+	margin-left: auto;
+	margin-right: 5px;
+}
+#customize-controls .image-preview {
+	margin-left: auto;
+	margin-right: 15px;
+}
+.customize-control-radio .hide-radio input {
+	margin-left: auto;
+    margin-right: -9999em;
+}

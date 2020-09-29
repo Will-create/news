@@ -1,0 +1,3550 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Graphene 1.0 theme for WordPress\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-11-24 16:21+0800\n"
+"PO-Revision-Date: 2017-11-24 16:27+0800\n"
+"Last-Translator: Syahir Hakim <syahir@khairul-syahir.com>\n"
+"Language-Team: Syahir Hakim <syahir@khairul-syahir.com>\n"
+"Language: et\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;esc_attr_e;esc_attr__\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.4\n"
+"X-Poedit-Bookmarks: -1,-1,-1,-1,-1,63,-1,-1,-1,-1\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:23
+#, php-format
+msgid "Searching for: <span>%s</span>"
+msgstr ""
+
+#: 404.php:29 search-404.php:3
+msgid "Error 404 - Page Not Found"
+msgstr "Error 404 - Lehte ei  leitud"
+
+#: 404.php:31 search-404.php:5
+msgid ""
+"Sorry, I've looked everywhere but I can't find the page you're looking for."
+msgstr ""
+"Vabandust,  ma otsisin igalt poolt, aga ma ei leia teie otsingule vastavat "
+"lehte."
+
+#: 404.php:32 search-404.php:6
+msgid ""
+"If you follow the link from another website, I may have removed or renamed "
+"the page some time ago. You may want to try searching for the page:"
+msgstr ""
+"Kui te sattusite siia mõne teise veebilehe kaudu, siis ma võisin selle "
+"eemaldada või ümber nimetada. Võite lehte siit otsida: "
+
+#: 404.php:40
+msgid "Automated search"
+msgstr "Automatiseeritud otsing"
+
+#: 404.php:43
+#, php-format
+msgid "Searching for the terms <strong>%s</strong> ..."
+msgstr "Otsides terminit <strong>%s</strong> ..."
+
+#: admin/ajax-handler.php:9 admin/ajax-handler.php:33 admin/ajax-handler.php:51
+msgid ""
+"Sorry, but you don't have the necessary permission to modify theme options."
+msgstr ""
+"Vabandust, aga teil ei ole piisavalt õiguseid, et teema välimust "
+"modifitseerida."
+
+#: admin/ajax-handler.php:20
+msgid "Options saved."
+msgstr "Valikud salvestatud."
+
+#: admin/ajax-handler.php:84
+msgid "Colour preset deleted."
+msgstr "Värvi eelseade kustutatud."
+
+#: admin/ajax-handler.php:84
+msgid "Colour preset saved."
+msgstr "Värvi eelseade salvestatud."
+
+#: admin/custom-fields.php:14
+msgid "Graphene post-specific options"
+msgstr "Graphene postituse spetsiifilised omadused"
+
+#: admin/custom-fields.php:15
+msgid "Graphene page-specific options"
+msgstr "Graphene lehe spetsiifilised omadused"
+
+#: admin/custom-fields.php:92
+msgid ""
+"These settings will only be applied to this particular post or page you're "
+"editing. They will override the global settings set in the Graphene Options "
+"or Graphene Display options page."
+msgstr ""
+"Need sätted on peale pandud ainult sellele kindlalt postile või lehele mida "
+"te editite. Need kirjutavad üle globaalsed sätted Graphene valikutes või "
+"Graphene displei valikute lehel."
+
+#: admin/custom-fields.php:93
+msgid "Slider options"
+msgstr "Slideri valikud"
+
+#: admin/custom-fields.php:97 admin/customizer/options-general.php:144
+msgid "Slider image"
+msgstr "Slaideri pilt"
+
+#: admin/custom-fields.php:101 admin/custom-fields.php:136
+#: admin/custom-fields.php:150
+msgid "Use global setting"
+msgstr "Kasuta globaalseid sätteid"
+
+#: admin/custom-fields.php:102 admin/customizer/options-general.php:146
+msgid "Don't show image"
+msgstr "Ära näita pilti"
+
+#: admin/custom-fields.php:103
+msgid "Featured Image"
+msgstr "Esiletõstetud pilt"
+
+#: admin/custom-fields.php:104 admin/customizer/options-general.php:148
+msgid "First image in post"
+msgstr "Esimene pilt postituses"
+
+#: admin/custom-fields.php:105
+msgid "Custom URL"
+msgstr "Eriline URL"
+
+#: admin/custom-fields.php:111
+msgid "Custom slider image URL"
+msgstr "Eriline slaideri pildi URL"
+
+#: admin/custom-fields.php:115
+msgid ""
+"Make sure you select Custom URL in the slider image option above to use this "
+"custom url."
+msgstr ""
+"Tee kindlaks, et valid erilise URLi slaideri pildi võimalusest ülevalt, et "
+"kasutada seda erilist URLi."
+
+#: admin/custom-fields.php:120
+msgid "Custom slider URL"
+msgstr "Eriline slaideri URL"
+
+#: admin/custom-fields.php:124
+msgid "Use this to override the link that is used in the slider."
+msgstr "Kasuta seda, et link ülekirjutada mida on siin slaideris kasutatud."
+
+#: admin/custom-fields.php:128
+msgid "Display options"
+msgstr "Displei valikud"
+
+#: admin/custom-fields.php:132
+msgid "AddThis Social Sharing button"
+msgstr "Lisa see sotsiaalse jagamise nupp"
+
+#: admin/custom-fields.php:137
+msgid "Show button"
+msgstr "Näita nuppu"
+
+#: admin/custom-fields.php:138
+msgid "Hide button"
+msgstr "Peida nupp"
+
+#: admin/custom-fields.php:146 admin/customizer/options-display.php:99
+msgid "Post date display"
+msgstr "Postita kuupäeva displei"
+
+#: admin/custom-fields.php:151 admin/customizer/options-display.php:101
+msgid "Hidden"
+msgstr "Peidetud"
+
+#: admin/custom-fields.php:152
+msgid "As an icon (without the year)"
+msgstr "Ikoonina (ilma aastata)"
+
+#: admin/custom-fields.php:153
+msgid "As an icon (including the year)"
+msgstr "Ikoonina (koos aastaga)"
+
+#: admin/custom-fields.php:154
+msgid "As inline text"
+msgstr "Sisemise tekstina"
+
+#: admin/custom-fields.php:162
+msgid "Navigation options"
+msgstr "Navigatsiooni võimalused"
+
+#: admin/custom-fields.php:166 admin/customizer/controls.php:293
+#: admin/customizer/controls.php:343
+msgid "Description"
+msgstr "Iseloomustus"
+
+#: admin/custom-fields.php:170
+msgid ""
+"Only required if you need a description in the navigation menu and you are "
+"not using a custom menu."
+msgstr ""
+"Ainult vaja kui teil on vaja iseloomustust navigatsiooni menüüs ja te ei "
+"kasuta isetehtud/erilist menüüd."
+
+#: admin/customizer/controls.php:140
+#, fuzzy
+#| msgid ""
+#| "This option enables you to place virtually any content to every nook and "
+#| "cranny in the theme, by attaching widget areas to the theme's action "
+#| "hooks."
+msgid ""
+"This option enables you to place virtually any content anywhere in the "
+"theme, by attaching widget areas to the theme's action hooks."
+msgstr ""
+"See valik võimaldab sul panna virtuaalselt ükskõik mis sisu ükskõik mis "
+"suuruses selles teemas lisades vidina ala teema tegevuskonksule."
+
+#: admin/customizer/controls.php:141
+msgid ""
+"All action hooks available in the Graphene Theme are listed below. Click on "
+"the filename to display all the action hooks available in that file. Then, "
+"tick the checkbox next to an action hook to make a widget area available for "
+"that action hook."
+msgstr ""
+"Kõik võimalikud tegevuskonksud Graphene Teemas on liigitatud allpool. Vajuta "
+"failinime peale, et näha kõiki saadaval olevaid tegevuskonkse selles failis. "
+"Siis pane linnuke järgmisesse kastikesse tegevuskonksu kõrval, et teha "
+"vidina ala saadavaks just selleks tegevuskonksuks."
+
+#: admin/customizer/controls.php:142
+#, php-format
+msgid ""
+"To see a visual map showing where each action hook in Graphene is located, "
+"visit this page: %s"
+msgstr ""
+
+#: admin/customizer/controls.php:142
+#, fuzzy
+#| msgid "Graphene Options"
+msgid "Graphene Action Hooks Map"
+msgstr "Graphene valikud"
+
+#: admin/customizer/controls.php:152
+msgid "Click to show/hide the action hooks for this file"
+msgstr "Kliki, et näidata/peita tegevuskonkse selle faili kohta"
+
+#: admin/customizer/controls.php:193
+msgid "Container width"
+msgstr "Konteineri laius"
+
+#: admin/customizer/controls.php:202
+#, fuzzy
+#| msgid "two-column mode"
+msgid "Columns width (two-column mode)"
+msgstr "kahe veeru viis"
+
+#: admin/customizer/controls.php:204 admin/customizer/controls.php:224
+msgid "Content"
+msgstr "Sisu"
+
+#: admin/customizer/controls.php:208
+msgid "Sidebar"
+msgstr "Külgriba"
+
+#: admin/customizer/controls.php:218
+#, fuzzy
+#| msgid "three-column mode"
+msgid "Columns width (three-column mode)"
+msgstr "kolme veeru viis"
+
+#: admin/customizer/controls.php:220
+msgid "Left sidebar"
+msgstr "Vasak külgriba"
+
+#: admin/customizer/controls.php:228
+msgid "Right sidebar"
+msgstr "Parem külgriba"
+
+#: admin/customizer/controls.php:269 admin/customizer/controls.php:334
+msgid "Custom"
+msgstr "Tavaline"
+
+#: admin/customizer/controls.php:298 admin/customizer/controls.php:348
+msgid "URL"
+msgstr "URL"
+
+#: admin/customizer/controls.php:302
+msgid "Leave the URL empty to use the default RSS URL."
+msgstr "Jäta ÜRL tühjaks, et kasutada algset RSS URLi."
+
+#: admin/customizer/controls.php:308 admin/customizer/controls.php:353
+msgid "Icon URL"
+msgstr "Ikooni URL"
+
+#: admin/customizer/controls.php:312 admin/customizer/controls.php:358
+msgid "Icon name"
+msgstr ""
+
+#: admin/customizer/controls.php:317 admin/customizer/customizer.php:38
+#: inc/comments.php:184
+msgid "Delete"
+msgstr "Kustuta"
+
+#: admin/customizer/controls.php:318
+#, fuzzy
+#| msgid "Post and pages top border"
+msgid "Drag and drop to reorder"
+msgstr "Postituste ja lehtede ülemine piir"
+
+#: admin/customizer/controls.php:324 admin/customizer/controls.php:362
+#, fuzzy
+#| msgid "Add this social media profile"
+msgid "Add social profile"
+msgstr "Lisa see sotsiaalmeedia profiil"
+
+#: admin/customizer/controls.php:328
+msgid "Choose type"
+msgstr "Vali tüüp"
+
+#: admin/customizer/controls.php:377
+msgid ""
+"Reset all of the theme's settings to their default values. Custom Header, "
+"Custom Menus, and other WordPress settings won't be affected."
+msgstr ""
+
+#: admin/customizer/controls.php:378
+#, fuzzy
+#| msgid "This action is not reversible."
+msgid "<strong>WARNING:</strong> This action is not reversible."
+msgstr "Seda tegevust ei saa tagasi võtta"
+
+#: admin/customizer/controls.php:380
+#, fuzzy
+#| msgid "This action is not reversible."
+msgid "Confirm to reset settings? This action is not reversible."
+msgstr "Seda tegevust ei saa tagasi võtta"
+
+#: admin/customizer/controls.php:380 admin/customizer/options-utilities.php:13
+#, fuzzy
+#| msgid "Reset to default settings"
+msgid "Reset settings"
+msgstr "Mine tagasi tavalistesse seadetesse"
+
+#: admin/customizer/controls.php:400 admin/customizer/options-utilities.php:38
+#, fuzzy
+#| msgid "Export presets"
+msgid "Export settings"
+msgstr "Ekspordi eelsätted"
+
+#: admin/customizer/controls.php:422 admin/customizer/options-utilities.php:32
+#, fuzzy
+#| msgid "Import presets"
+msgid "Import settings"
+msgstr "Impordi eelsätted"
+
+#: admin/customizer/customizer.php:35
+msgid "Oops, nothing found."
+msgstr "Oih, midagi ei leitud."
+
+#: admin/customizer/customizer.php:37
+#, fuzzy
+#| msgid "Please select the colour presets to be exported."
+msgid "Please select the exported Graphene options file to import."
+msgstr "Palun vali värvi algset sätted eksportimiseks."
+
+#: admin/customizer/customizer.php:39
+msgid "(optional)"
+msgstr ""
+
+#: admin/customizer/customizer.php:40
+msgid "Link"
+msgstr "Link"
+
+#: admin/customizer/customizer.php:41
+#, fuzzy
+#| msgid "Please select the colour presets to be exported."
+msgid "Please select a settings file to import."
+msgstr "Palun vali värvi algset sätted eksportimiseks."
+
+#: admin/customizer/customizer.php:95
+#, fuzzy
+#| msgid "Graphene Theme"
+msgid "Graphene: General"
+msgstr "Graphene Theme"
+
+#: admin/customizer/customizer.php:99
+#, fuzzy
+#| msgid "Graphene Options"
+msgid "Graphene: Display"
+msgstr "Graphene valikud"
+
+#: admin/customizer/customizer.php:103
+#, fuzzy
+#| msgid "Graphene Options"
+msgid "Graphene: Colours"
+msgstr "Graphene valikud"
+
+#: admin/customizer/customizer.php:104
+msgid ""
+"Changing colours for your website involves a lot more than just trial and "
+"error. Simply mixing and matching colours without regard to their "
+"compatibility may do more damage than good to your site's aesthetics."
+msgstr ""
+"Vahetades värve oma veebilehel nõuab palju rohkem kui lihtsalt "
+"katseeksitusmeetodil töötamist. Lihtsalt värve segada ja kokkupanna võib "
+"teha rohkem kahju kui head sinu saidi esteetilisele välimusele."
+
+#: admin/customizer/customizer.php:104
+#, php-format
+msgid ""
+"It's generally a good idea to stick to colours from colour pallettes that "
+"are aesthetically pleasing. Try the %s website for a kickstart on some "
+"colour palettes you can use."
+msgstr ""
+"Tavaliselt on hea idee jääda värvida juurde, mis on esteetiliselt "
+"rahustavad. Proovi %s veebilehte, et saada mõned värvilahendused mida saad "
+"kasutada."
+
+#: admin/customizer/customizer.php:108
+#, fuzzy
+#| msgid "Graphene FAQs"
+msgid "Graphene: Advanced"
+msgstr "Graphene korduma kippuvad küsimused"
+
+#: admin/customizer/customizer.php:112
+#, fuzzy
+#| msgid "Graphene Options"
+msgid "Graphene: Utilities"
+msgstr "Graphene valikud"
+
+#: admin/customizer/options-advanced.php:13
+msgid "Custom <head> Tags"
+msgstr "Eriline <head> Tags"
+
+#: admin/customizer/options-advanced.php:20
+msgid "Code to insert into the <head> element"
+msgstr "Kood, et sisestada <head> element"
+
+#: admin/customizer/options-advanced.php:31
+msgid "Action Hooks Widget Areas"
+msgstr "Tegevuskonksu vidina alad"
+
+#: admin/customizer/options-colours.php:13
+#, fuzzy
+#| msgid "Top bar"
+msgid "Top Bar"
+msgstr "Ülemine riba"
+
+#: admin/customizer/options-colours.php:19
+#: admin/customizer/options-colours.php:207
+msgid "Background"
+msgstr "Tagataust"
+
+#: admin/customizer/options-colours.php:26
+#, fuzzy
+#| msgid "Primary menu"
+msgid "Primary Menu"
+msgstr "Põhimenüü"
+
+#: admin/customizer/options-colours.php:34
+#: admin/customizer/options-colours.php:57
+#, fuzzy
+#| msgid "Dropdown menu (default state)"
+msgid "Background (default state)"
+msgstr "Rippmenüü (algne olek)"
+
+#: admin/customizer/options-colours.php:35
+#: admin/customizer/options-colours.php:58
+#, fuzzy
+#| msgid "Default state"
+msgid "Text (default state)"
+msgstr "Algne olek"
+
+#: admin/customizer/options-colours.php:36
+#: admin/customizer/options-colours.php:59
+#, fuzzy
+#| msgid "Hover and active state"
+msgid "Background (active state)"
+msgstr "Hõljuv ja aktiivne olek"
+
+#: admin/customizer/options-colours.php:37
+#: admin/customizer/options-colours.php:60
+#, fuzzy
+#| msgid "Text decoration (hover state )"
+msgid "Text (active state)"
+msgstr "Teksti dekoratsioon (hõljuv olek)"
+
+#: admin/customizer/options-colours.php:38
+#: admin/customizer/options-colours.php:61
+#, fuzzy
+#| msgid "Dropdown menu (default state)"
+msgid "Dropdown menu text (default state)"
+msgstr "Rippmenüü (algne olek)"
+
+#: admin/customizer/options-colours.php:39
+#: admin/customizer/options-colours.php:62
+#, fuzzy
+#| msgid "Dropdown menu (hover and active state)"
+msgid "Dropdown menu text (active state)"
+msgstr "Rippmenüü (hõljuv ja aktiivne olek)"
+
+#: admin/customizer/options-colours.php:48 inc/setup.php:97
+msgid "Secondary Menu"
+msgstr "Teine menüü"
+
+#: admin/customizer/options-colours.php:56
+msgid "Top border"
+msgstr "Ülemine piir"
+
+#: admin/customizer/options-colours.php:71
+#: admin/customizer/options-general.php:65
+msgid "Slider"
+msgstr "Slaider"
+
+#: admin/customizer/options-colours.php:76
+#, fuzzy
+#| msgid "Widget item background"
+msgid "Slider caption background"
+msgstr "Vidinate tagataust"
+
+#: admin/customizer/options-colours.php:85
+#, fuzzy
+#| msgid "Slider options"
+msgid "Slider caption text"
+msgstr "Slideri valikud"
+
+#: admin/customizer/options-colours.php:94
+#, fuzzy
+#| msgid "Content area"
+msgid "Content Area"
+msgstr "Sisu ala"
+
+#: admin/customizer/options-colours.php:102
+msgid "Main content wrapper background"
+msgstr "Põhi sisu ümbrise tagataust"
+
+#: admin/customizer/options-colours.php:103
+msgid "Post and pages content background"
+msgstr "Postituste ja lehtede sisu tagataust"
+
+#: admin/customizer/options-colours.php:104
+msgid "Post meta and footer border"
+msgstr "Postituse meta ja jalutsi piir"
+
+#: admin/customizer/options-colours.php:105
+msgid "Content text"
+msgstr "Sisu tekst"
+
+#: admin/customizer/options-colours.php:106
+msgid "Title text"
+msgstr "Pealkirja tekst"
+
+#: admin/customizer/options-colours.php:107
+#, fuzzy
+#| msgid "Link"
+msgid "Links"
+msgstr "Link"
+
+#: admin/customizer/options-colours.php:108
+#, fuzzy
+#| msgid "Link colour (hover state)"
+msgid "Links (hover)"
+msgstr "Lingi värv (hõljuv olek)"
+
+#: admin/customizer/options-colours.php:109
+#, fuzzy
+#| msgid "Sticky posts content background"
+msgid "Sticky posts border"
+msgstr "Kleepuvate postituste sisu tagataust"
+
+#: admin/customizer/options-colours.php:110
+msgid "Child pages content background"
+msgstr "Laste lehtede sisu tagataust"
+
+#: admin/customizer/options-colours.php:119
+msgid "Widgets"
+msgstr "Vidinad"
+
+#: admin/customizer/options-colours.php:127
+msgid "Widget item background"
+msgstr "Vidinate tagataust"
+
+#: admin/customizer/options-colours.php:128
+msgid "Widget item list border"
+msgstr "Vidinate nimekirja piir"
+
+#: admin/customizer/options-colours.php:129
+msgid "Widget header border"
+msgstr "Vidina päise piir"
+
+#: admin/customizer/options-colours.php:138
+#, fuzzy
+#| msgid "Button label"
+msgid "Buttons and Labels"
+msgstr "Nupu märgis"
+
+#: admin/customizer/options-colours.php:146
+#, fuzzy
+#| msgid "Bottom background"
+msgid "Button background"
+msgstr "Alumine tagataust"
+
+#: admin/customizer/options-colours.php:147
+#, fuzzy
+#| msgid "Button label"
+msgid "Button text"
+msgstr "Nupu märgis"
+
+#: admin/customizer/options-colours.php:148
+#, fuzzy
+#| msgid "Top background"
+msgid "Label background"
+msgstr "Ülemine tagataust"
+
+#: admin/customizer/options-colours.php:149
+#, fuzzy
+#| msgid "Normal text"
+msgid "Label text"
+msgstr "Tavaline tekst"
+
+#: admin/customizer/options-colours.php:158
+#, fuzzy
+#| msgid "Blog Archive"
+msgid "Archives"
+msgstr "Blogi Arhiiv"
+
+#: admin/customizer/options-colours.php:166
+#, fuzzy
+#| msgid "Archive label colour"
+msgid "Archive label background"
+msgstr "Arhiivi märgise värv"
+
+#: admin/customizer/options-colours.php:167
+#, fuzzy
+#| msgid "Archive label colour"
+msgid "Archive label border"
+msgstr "Arhiivi märgise värv"
+
+#: admin/customizer/options-colours.php:168
+#, fuzzy
+#| msgid "Archive label colour"
+msgid "Archive label label colour"
+msgstr "Arhiivi märgise värv"
+
+#: admin/customizer/options-colours.php:169
+#, fuzzy
+#| msgid "Archive label colour"
+msgid "Archive label text colour"
+msgstr "Arhiivi märgise värv"
+
+#: admin/customizer/options-colours.php:178
+#: admin/customizer/options-general.php:301
+#, fuzzy
+#| msgid "Comments off"
+msgid "Comments"
+msgstr "Kommentaarid on väljalülitatud"
+
+#: admin/customizer/options-colours.php:186
+msgid "Comments background"
+msgstr "Kommentaaride tagataust"
+
+#: admin/customizer/options-colours.php:187
+#, fuzzy
+#| msgid "Comments area"
+msgid "Comments border"
+msgstr "Kommentaaride ala"
+
+#: admin/customizer/options-colours.php:188
+#, fuzzy
+#| msgid "Widget box shadow"
+msgid "Comments box shadow"
+msgstr "Vidina kasti vari"
+
+#: admin/customizer/options-colours.php:189
+msgid "Comments text"
+msgstr "Kommentaaride tekst"
+
+#: admin/customizer/options-colours.php:190
+#, fuzzy
+#| msgid "Author comments top border"
+msgid "Author comments border"
+msgstr "Autori kommentaaride ülemine piir"
+
+#: admin/customizer/options-colours.php:199
+#: admin/customizer/options-general.php:513
+msgid "Footer"
+msgstr "Jaluts"
+
+#: admin/customizer/options-colours.php:208
+msgid "Normal text"
+msgstr "Tavaline tekst"
+
+#: admin/customizer/options-colours.php:209
+msgid "Link text"
+msgstr "Lingi tekst"
+
+#: admin/customizer/options-display.php:13
+#, fuzzy
+#| msgid "Column mode"
+msgid "Columns Layout"
+msgstr "Veeru viis"
+
+#: admin/customizer/options-display.php:20
+#, fuzzy
+#| msgid "Container width"
+msgid "Container style"
+msgstr "Konteineri laius"
+
+#: admin/customizer/options-display.php:22
+msgid "Boxed"
+msgstr ""
+
+#: admin/customizer/options-display.php:23
+#, fuzzy
+#| msgid "Column width"
+msgid "Full width"
+msgstr "Veeru laius"
+
+#: admin/customizer/options-display.php:30
+msgid "Layout"
+msgstr ""
+
+#: admin/customizer/options-display.php:32
+msgid "One column"
+msgstr "Üks veerg"
+
+#: admin/customizer/options-display.php:33
+#, fuzzy
+#| msgid "Two columns (with sidebar left)"
+msgid "Two columns, right sidebar"
+msgstr "Kaks veergu (külgriba vasakul)"
+
+#: admin/customizer/options-display.php:34
+#, fuzzy
+#| msgid "Two columns (with sidebar left)"
+msgid "Two columns, left sidebar"
+msgstr "Kaks veergu (külgriba vasakul)"
+
+#: admin/customizer/options-display.php:35
+#, fuzzy
+#| msgid "Three columns (with two sidebars left)"
+msgid "Three columns, right sidebars"
+msgstr "Kolm veergu (kaks külgriba vasakul)"
+
+#: admin/customizer/options-display.php:36
+#, fuzzy
+#| msgid "Three columns, sidebars on the left"
+msgid "Three columns, left sidebars"
+msgstr "Kolm veergu, külgribad vasakul"
+
+#: admin/customizer/options-display.php:37
+#, fuzzy
+#| msgid "Three columns, sidebar left and right"
+msgid "Three columns, left & right sidebars"
+msgstr "Kolm veergu, külgriba vasakul ja paremal"
+
+#: admin/customizer/options-display.php:45
+#, fuzzy
+#| msgid "Column width"
+msgid "Columns Width"
+msgstr "Veeru laius"
+
+#: admin/customizer/options-display.php:47
+#, fuzzy
+#| msgid "Note: Leave values empty to reset to the default values."
+msgid "Leave values empty to reset to the default values."
+msgstr ""
+"Tähelepanu: Jäta väärtused tühjaks, et lähtestada algsetesse väärtustesse."
+
+#: admin/customizer/options-display.php:62
+msgid "Posts Elements"
+msgstr ""
+
+#: admin/customizer/options-display.php:69
+msgid "Hide post author"
+msgstr "Peida postituse autor"
+
+#: admin/customizer/options-display.php:75
+msgid "Hide post categories"
+msgstr "Peida postituse kategooriad"
+
+#: admin/customizer/options-display.php:81
+msgid "Hide post tags"
+msgstr "Peida postituse sildid"
+
+#: admin/customizer/options-display.php:87
+msgid "Hide post comment count"
+msgstr "Peida postituse kommentaaride arvu"
+
+#: admin/customizer/options-display.php:93
+#, fuzzy
+#| msgid "Hide post author"
+msgid "Hide author bio"
+msgstr "Peida postituse autor"
+
+#: admin/customizer/options-display.php:102
+#, fuzzy
+#| msgid "Icon URL"
+msgid "Icon"
+msgstr "Ikooni URL"
+
+#: admin/customizer/options-display.php:103
+#, fuzzy
+#| msgid "As an icon (without the year)"
+msgid "Icon with year"
+msgstr "Ikoonina (ilma aastata)"
+
+#: admin/customizer/options-display.php:104
+#, fuzzy
+#| msgid "As inline text"
+msgid "Inline text"
+msgstr "Sisemise tekstina"
+
+#: admin/customizer/options-display.php:112
+msgid "Excerpts"
+msgstr ""
+
+#: admin/customizer/options-display.php:119
+#, fuzzy
+#| msgid "Show excerpts in front page"
+msgid "Show excerpts in Front Page"
+msgstr "Näita katkendeid esilehel"
+
+#: admin/customizer/options-display.php:125
+msgid "Show full content in archive pages"
+msgstr "Näita tervet sisu arhiivi lehtede all"
+
+#: admin/customizer/options-display.php:131
+msgid "Show More link for manual excerpts"
+msgstr "Näita veel linke manuaalsete katkendite jaoks"
+
+#: admin/customizer/options-display.php:137
+#, fuzzy
+#| msgid "Retain these HTML tags in excerpts"
+msgid "Keep these HTML tags in excerpts"
+msgstr "Säilita neid HTML silte katkendites"
+
+#: admin/customizer/options-display.php:138
+msgid ""
+"Enter the HTML tags you'd like to retain in excerpts. For example, enter "
+"<code>&lt;p&gt;&lt;ul&gt;&lt;li&gt;</code> to retain <code>&lt;p&gt;</code>, "
+"<code>&lt;ul&gt;</code>, and <code>&lt;li&gt;</code> HTML tags."
+msgstr ""
+"Lisa HTML sildid, mida tahaksid kasutada katkendites. Näiteks: <code>&lt;"
+"p&gt;&lt;ul&gt;&lt;li&gt;</code> to retain <code>&lt;p&gt;</code>, <code>&lt;"
+"ul&gt;</code>, and <code>&lt;li&gt;</code> HTML silt."
+
+#: admin/customizer/options-display.php:149
+#, fuzzy
+#| msgid "Miscellaneous Display Options"
+msgid "Miscellaneous"
+msgstr "Muud displei valikud"
+
+#: admin/customizer/options-display.php:157
+msgid "Disable custom editor styles"
+msgstr "Lülita erilised toimetaja stiilid välja"
+
+#: admin/customizer/options-general.php:13
+#, fuzzy
+#| msgid "Header Text"
+msgid "Header"
+msgstr "Päismiku tekst"
+
+#: admin/customizer/options-general.php:20
+#, fuzzy
+#| msgid "Disabled for pages"
+msgid "Disable Top Bar"
+msgstr "Lehtede jaoks väljalülitatud"
+
+#: admin/customizer/options-general.php:26
+msgid "Use light-coloured header bars"
+msgstr "Kasuta heledavärvilisi päise ribasid."
+
+#: admin/customizer/options-general.php:32
+msgid "Link header image to front page"
+msgstr "Ühenda päise pilt esilehele."
+
+#: admin/customizer/options-general.php:33
+msgid ""
+"Check this if you disable the header texts and want the header image to be "
+"linked to the front page."
+msgstr ""
+"Pane siis linnuke kui sa lülitad välja päise tekstid ja tahad, et päise pilt "
+"oleks ühendatud esilehega."
+
+#: admin/customizer/options-general.php:39
+msgid "Disable Featured Image replacing header image"
+msgstr "Lülita välja esiletõstetud pildi asendamine päise pildiga."
+
+#: admin/customizer/options-general.php:40
+msgid ""
+"Check this to prevent the posts Featured Image replacing the header image "
+"regardless of the featured image dimension."
+msgstr ""
+"Pane siia linnuke, et hoiduda postituste esiletõstetud pildi vahetamisest "
+"päise pildi vastu. "
+
+#: admin/customizer/options-general.php:46
+#, fuzzy
+#| msgid "Header image height"
+msgid "Header image max height"
+msgstr "Päise pildi kõrgus"
+
+#: admin/customizer/options-general.php:53
+msgid "Search box location"
+msgstr "Otsingukasti asukoht"
+
+#: admin/customizer/options-general.php:55
+msgid "Top bar"
+msgstr "Ülemine riba"
+
+#: admin/customizer/options-general.php:56
+msgid "Navigation bar"
+msgstr "Navigatsiooni riba"
+
+#: admin/customizer/options-general.php:57
+msgid "Disabled"
+msgstr "Väljalülitatud"
+
+#: admin/customizer/options-general.php:72
+msgid "Disable slider"
+msgstr "Lülita slaide välja"
+
+#: admin/customizer/options-general.php:78
+#, fuzzy
+#| msgid "Extend slider to full width of the theme"
+msgid "Extend slider to full width of theme"
+msgstr "Pikenda slaide teema täies pikkuses"
+
+#: admin/customizer/options-general.php:84
+#, fuzzy
+#| msgid "Slider options"
+msgid "Slider content"
+msgstr "Slideri valikud"
+
+#: admin/customizer/options-general.php:86
+msgid "Show latest posts"
+msgstr "Näita uusimaid postitusi"
+
+#: admin/customizer/options-general.php:87
+msgid "Show random posts"
+msgstr "Näita suvalisi postitusi"
+
+#: admin/customizer/options-general.php:88
+#: admin/customizer/options-general.php:268
+msgid "Show specific posts/pages"
+msgstr "Näita kindlaid postitusi/lehti"
+
+#: admin/customizer/options-general.php:89
+msgid "Show posts from categories"
+msgstr "Näita postitusi kategooriatest"
+
+#: admin/customizer/options-general.php:96
+msgid "Include posts with featured image only"
+msgstr ""
+
+#: admin/customizer/options-general.php:102
+#: admin/customizer/options-general.php:293
+msgid "Posts and/or pages to display"
+msgstr "Postitused või lehed mida tahad näidata"
+
+#: admin/customizer/options-general.php:103
+#: admin/customizer/options-general.php:294
+#, fuzzy
+#| msgid ""
+#| "Enter ID of posts and/or pages to be displayed, separated by comma. "
+#| "Example: <code>1,13,45,33</code>"
+msgid ""
+"Enter ID of posts and/or pages to be displayed, separated by comma.<br / "
+">Applicable only if \"Show specific posts/pages\" is selected above.<br /"
+">Example: <code>1,13,45,33</code>"
+msgstr ""
+"Sisesta postituste ja/või lehtede ID mida sa tahad näidata, eemaldatud "
+"üksteisest komaga. Näide: <code>1,13,45,33</code>"
+
+#: admin/customizer/options-general.php:113
+msgid "Categories to display"
+msgstr "Kategooriad mida näidata"
+
+#: admin/customizer/options-general.php:116
+msgid ""
+"All posts within the categories selected here will be displayed on the "
+"slider. Usage example: create a new category \"Featured\" and assign all "
+"posts to be displayed on the slider to that category, and then select that "
+"category here."
+msgstr ""
+"Kõik postitused valitud kategooriates näidatakse slaideris. Kasutus näide: "
+"tee uus kategooria \"Esiletõstetud\" ja korralda kõik postitused näitamiseks "
+"slaideris just sinna kategooriasse kuhu tahad ja siis vali see kategooria "
+"siit."
+
+#: admin/customizer/options-general.php:118
+#: admin/customizer/options-general.php:244
+#: admin/customizer/options-general.php:286
+#, fuzzy
+#| msgid "Hide post categories"
+msgid "Select categories"
+msgstr "Peida postituse kategooriad"
+
+#: admin/customizer/options-general.php:125
+msgid "Exclude the categories from posts listing"
+msgstr "Eemalda kategooriad postituste nimekirjast"
+
+#: admin/customizer/options-general.php:131
+msgid "Show posts from categories in random order"
+msgstr "Näita postitusi kategooriates suvalises järjekorras"
+
+#: admin/customizer/options-general.php:137
+msgid "Number of posts to display"
+msgstr "Postituste arv mida esitatakse"
+
+#: admin/customizer/options-general.php:138
+msgid "posts"
+msgstr ""
+
+#: admin/customizer/options-general.php:147
+#, fuzzy
+#| msgid "Featured Image"
+msgid "Featured image"
+msgstr "Esiletõstetud pilt"
+
+#: admin/customizer/options-general.php:149
+#, fuzzy
+#| msgid "Custom slider image URL"
+msgid "Custom image"
+msgstr "Eriline slaideri pildi URL"
+
+#: admin/customizer/options-general.php:154
+#, fuzzy
+#| msgid "Custom slider image URL"
+msgid "Custom slider image"
+msgstr "Eriline slaideri pildi URL"
+
+#: admin/customizer/options-general.php:157
+#, fuzzy
+#| msgid ""
+#| "Make sure you select Custom URL in the slider image option above to use "
+#| "this custom url."
+msgid ""
+"Make sure you select \"Custom image\" in the slider image option above to "
+"use this image."
+msgstr ""
+"Tee kindlaks, et valid erilise URLi slaideri pildi võimalusest ülevalt, et "
+"kasutada seda erilist URLi."
+
+#: admin/customizer/options-general.php:163
+msgid "Slider display style"
+msgstr "Slaideri displei stiil"
+
+#: admin/customizer/options-general.php:165
+msgid "Background image and excerpt"
+msgstr "Tagumine pilt ja katkend"
+
+#: admin/customizer/options-general.php:166
+msgid "Full post content"
+msgstr "Terve postituse sisu"
+
+#: admin/customizer/options-general.php:173
+msgid "Slider height"
+msgstr "Slaideri kõrgus"
+
+#: admin/customizer/options-general.php:174
+#: admin/customizer/options-general.php:181
+msgid "px"
+msgstr ""
+
+#: admin/customizer/options-general.php:180
+#, fuzzy
+#| msgid "Slider height"
+msgid "Slider height (mobile)"
+msgstr "Slaideri kõrgus"
+
+#: admin/customizer/options-general.php:187
+msgid "Slider speed"
+msgstr "Slaideri kiirus"
+
+#: admin/customizer/options-general.php:188
+msgid "milliseconds"
+msgstr "millisekundid"
+
+#: admin/customizer/options-general.php:189
+#, fuzzy
+#| msgid "This is the duration that each slider item will be shown"
+msgid "This is the duration that each slider item will be shown."
+msgstr "See on pikkus kui pikalt igat slaiderit näidatakse"
+
+#: admin/customizer/options-general.php:195
+msgid "Move slider to bottom of page"
+msgstr "Liiguta slaide lehe jalutsisse"
+
+#: admin/customizer/options-general.php:202
+msgid "Infinite Scroll"
+msgstr "Igavene kerimine"
+
+#: admin/customizer/options-general.php:209
+#, fuzzy
+#| msgid "Disabled for pages"
+msgid "Enable for posts"
+msgstr "Lehtede jaoks väljalülitatud"
+
+#: admin/customizer/options-general.php:215
+#, fuzzy
+#| msgid "For comments"
+msgid "Enable for comments"
+msgstr "Kommentaaride jaoks"
+
+#: admin/customizer/options-general.php:221
+msgid "Loading method"
+msgstr ""
+
+#: admin/customizer/options-general.php:223
+msgid "Auto-load"
+msgstr ""
+
+#: admin/customizer/options-general.php:224
+msgid "Click-to-load"
+msgstr ""
+
+#: admin/customizer/options-general.php:232
+#, fuzzy
+#| msgid "Front Page Options"
+msgid "Front Page"
+msgstr "Esilehe valikud"
+
+#: admin/customizer/options-general.php:239
+msgid "Front page posts categories"
+msgstr "Esilehe postituste kategooriad"
+
+#: admin/customizer/options-general.php:242
+#, fuzzy
+#| msgid ""
+#| "Only posts that belong to the categories selected here will be displayed "
+#| "on the front page. Does not affect Static Front Page. Leave empty to "
+#| "disable."
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page. Works only if not using Static Front Page."
+msgstr ""
+"Ainult postitused mis kuuluvad valitud kategooriate alla näidatakse "
+"kodulehel. Ei mõjuta staatilist esilehte. Jäta tühjaks, et välja lülitada."
+
+#: admin/customizer/options-general.php:252
+#, fuzzy
+#| msgid "Homepage Panes"
+msgid "Home Page Panes"
+msgstr "Kodulehe paneelid"
+
+#: admin/customizer/options-general.php:259
+msgid "Disable homepage panes"
+msgstr "Lülita välja kodulehe paneelid"
+
+#: admin/customizer/options-general.php:265
+msgid "Type of content to show"
+msgstr "Sisu tüüp mida näidata"
+
+#: admin/customizer/options-general.php:267
+msgid "Latest posts"
+msgstr "Viimased postitused"
+
+#: admin/customizer/options-general.php:275
+#, fuzzy
+#| msgid "Number of posts to display"
+msgid "Number of posts"
+msgstr "Postituste arv mida esitatakse"
+
+#: admin/customizer/options-general.php:281
+#, fuzzy
+#| msgid "Category to show latest posts from"
+msgid "Categories to show latest posts from"
+msgstr "Kategooria, et  näidata viimaseid postitusi "
+
+#: admin/customizer/options-general.php:284
+#, fuzzy
+#| msgid ""
+#| "Only posts that belong to the categories selected here will be displayed "
+#| "on the front page. Does not affect Static Front Page. Leave empty to "
+#| "disable."
+msgid ""
+"Only posts that belong to the categories selected here will be displayed in "
+"the home page panes."
+msgstr ""
+"Ainult postitused mis kuuluvad valitud kategooriate alla näidatakse "
+"kodulehel. Ei mõjuta staatilist esilehte. Jäta tühjaks, et välja lülitada."
+
+#: admin/customizer/options-general.php:308
+msgid "Commenting"
+msgstr "Kommenteerimine"
+
+#: admin/customizer/options-general.php:309
+#, fuzzy
+#| msgid ""
+#| "Note: this setting overrides the global WordPress Discussion Setting "
+#| "called \"Allow people to post comments on new articles\" and also the "
+#| "\"Allow comments\" option for individual posts/pages."
+msgid ""
+"Overrides the global WordPress Discussion Setting called \"Allow people to "
+"post comments on new articles\" and also the \"Allow comments\" option for "
+"individual posts/pages."
+msgstr ""
+"Tähelepanu: See säte kirjutab üle globaalse WordPressi diskussiooni sätte "
+"mis kõlab niiviisi \"Luba inimestel postitada kommentaare uutele artiklitele"
+"\" ja ka \"Luba kommentaarid\" seaded individuaalsetele postidele/lehtedele."
+
+#: admin/customizer/options-general.php:311
+msgid "Use WordPress settings"
+msgstr "Kasuta WordPressi sätteid"
+
+#: admin/customizer/options-general.php:312
+#, fuzzy
+#| msgid "Disabled for pages"
+msgid "Disable for pages"
+msgstr "Lehtede jaoks väljalülitatud"
+
+#: admin/customizer/options-general.php:313
+#, fuzzy
+#| msgid "Disabled completely"
+msgid "Disable completely"
+msgstr "Täielikult väljalülitatud"
+
+#: admin/customizer/options-general.php:321
+#, fuzzy
+#| msgid "Child Page Options"
+msgid "Child Pages"
+msgstr "Laste lehe valikud"
+
+#: admin/customizer/options-general.php:328
+msgid "Hide parent box if content is empty"
+msgstr "Peida vanema kast kui sisu ei ole"
+
+#: admin/customizer/options-general.php:334
+msgid "Disable contextual navigation in the sidebar"
+msgstr ""
+
+#: admin/customizer/options-general.php:340
+msgid "Child page listings"
+msgstr "Laste lehtede sisukord"
+
+#: admin/customizer/options-general.php:342
+msgid "Show listing"
+msgstr "Näita sisukorda"
+
+#: admin/customizer/options-general.php:343
+msgid "Hide listing"
+msgstr "Peida sisukord"
+
+#: admin/customizer/options-general.php:344
+#, fuzzy
+#| msgid "Only show listing if parent content is empty"
+msgid "Show only if parent is empty"
+msgstr "Näita ainult sisukorda kui vanem sisu on tühi"
+
+#: admin/customizer/options-general.php:352
+#, fuzzy
+#| msgid "Widget Area Options"
+msgid "Widget Areas"
+msgstr "Vidina ala valikud"
+
+#: admin/customizer/options-general.php:359
+msgid "Enable header widget area"
+msgstr "Luba peamine vidina ala"
+
+#: admin/customizer/options-general.php:360
+msgid ""
+"<strong>Important:</strong> This widget area is unstyled, as it is often "
+"used for advertisement banners, etc. If you enable it, make sure you style "
+"it to your needs using the Custom CSS option."
+msgstr ""
+"<strong> Tähtis:</strong> See vidina ala ei ole stiliseeritud, sest "
+"kasutatakse tihtipeale reklaamibänneriteks, etc. Kui sa selle lubad, tee "
+"kindlaks, et disainid ta oma vajadustele kasutades tavalise CSSi valiku."
+
+#: admin/customizer/options-general.php:366
+#, fuzzy
+#| msgid "Enable alternate front page sidebar widget area"
+msgid "Enable alternative sidebar widget area in front page."
+msgstr "Luba alternatiivseid esilehe kõrvalriba vidina ala"
+
+#: admin/customizer/options-general.php:372
+#, fuzzy
+#| msgid "Enable alternate front page footer widget area"
+msgid "Enable alternative footer widget area in front page."
+msgstr "Luba alternatiivseid esilehe jalutsi vidina ala."
+
+#: admin/customizer/options-general.php:378
+msgid "Divide footer widget area into this number of columns"
+msgstr ""
+
+#: admin/customizer/options-general.php:384
+msgid "Divide alternative footer widget area into this number of columns"
+msgstr ""
+
+#: admin/customizer/options-general.php:391
+#, fuzzy
+#| msgid "Add Social Media Profile"
+msgid "Social Profiles"
+msgstr "Lisa sotsiaalmeedia profiil"
+
+#: admin/customizer/options-general.php:398
+msgid "Open social media links in new window"
+msgstr "Ava sotsiaalmeedia lingid uues aknas"
+
+#: admin/customizer/options-general.php:403
+#, fuzzy
+#| msgid "Add Social Media Profile"
+msgid "Social profiles"
+msgstr "Lisa sotsiaalmeedia profiil"
+
+#: admin/customizer/options-general.php:410
+#, fuzzy
+#| msgid "Social Sharing Buttons"
+msgid "Social Sharing"
+msgstr "Sotsiaalse jagamise nupud"
+
+#: admin/customizer/options-general.php:417
+#, fuzzy
+#| msgid "Show social sharing button"
+msgid "Show social sharing buttons"
+msgstr "Näita sotsiaalse jagamise nuppe"
+
+#: admin/customizer/options-general.php:423
+msgid "Include static Pages"
+msgstr ""
+
+#: admin/customizer/options-general.php:429
+#, fuzzy
+#| msgid "Show in home and archive pages?"
+msgid "Include home and archive pages"
+msgstr "Näita kodulehel ja arhiivis?"
+
+#: admin/customizer/options-general.php:435
+#, fuzzy
+#| msgid "Button label"
+msgid "Buttons location"
+msgstr "Nupu märgis"
+
+#: admin/customizer/options-general.php:437
+msgid "Bottom of posts"
+msgstr "Alumised postitused"
+
+#: admin/customizer/options-general.php:438
+msgid "Top of posts"
+msgstr "Ülemised postitused"
+
+#: admin/customizer/options-general.php:439
+#, fuzzy
+#| msgid "Bottom of posts"
+msgid "Top and bottom of posts"
+msgstr "Alumised postitused"
+
+#: admin/customizer/options-general.php:446
+#, fuzzy
+#| msgid "Social sharing buttons location"
+msgid "Social sharing buttons code"
+msgstr "Sotsiaalsete jagamiste nuppude asukoht"
+
+#: admin/customizer/options-general.php:447
+msgid ""
+"You can use codes from any popular social sharing sites, like Facebook, "
+"Digg, AddThis, etc."
+msgstr ""
+"Võid kasutada koode ükskõik millistelt populaarsetelt sotsiaalsetelt "
+"lehtedelt nagu Facebook, Digg, Addthis, etc."
+
+#: admin/customizer/options-general.php:458
+#, fuzzy
+#| msgid "Add-ons"
+msgid "Ads"
+msgstr "Lisad"
+
+#: admin/customizer/options-general.php:465
+#, fuzzy
+#| msgid "Show random posts"
+msgid "Show ads"
+msgstr "Näita suvalisi postitusi"
+
+#: admin/customizer/options-general.php:471
+msgid "Include Front Page"
+msgstr ""
+
+#: admin/customizer/options-general.php:477
+#, fuzzy
+#| msgid "Your Adsense code"
+msgid "Ads code"
+msgstr "Sinu Adsense kood"
+
+#: admin/customizer/options-general.php:488
+msgid "Analytics"
+msgstr ""
+
+#: admin/customizer/options-general.php:495
+#, fuzzy
+#| msgid "Enable Google Analytics tracking"
+msgid "Enable analytics tracking"
+msgstr "Luba Google analüütikute jälitus"
+
+#: admin/customizer/options-general.php:501
+#, fuzzy
+#| msgid "Google Analytics tracking code"
+msgid "Analytics code"
+msgstr "Google analüütikute jälituskood"
+
+#: admin/customizer/options-general.php:502
+#, php-format
+msgid ""
+"The analytics code will be added inside the %s element of all pages in this "
+"site."
+msgstr ""
+
+#: admin/customizer/options-general.php:520
+msgid "Copyright text (html allowed)"
+msgstr "Autorikaitse tekst (html lubatud)"
+
+#: admin/customizer/options-general.php:530
+msgid "Do not show copyright info"
+msgstr "Ära näita autorikaitse infot"
+
+#: admin/customizer/options-general.php:536
+#, fuzzy
+#| msgid "Do not show the \"Return to top\" link"
+msgid "Disable \"Return to top\" button"
+msgstr "Ära näita \"Tagasi tippu\" linki"
+
+#: admin/customizer/options-general.php:543
+msgid "Print"
+msgstr ""
+
+#: admin/customizer/options-general.php:550
+#, fuzzy
+#| msgid "Enable print CSS for single posts and pages?"
+msgid "Clean up single posts and pages when printing"
+msgstr "Luba print CSS üksikute postituste ja lehtede jaoks?"
+
+#: admin/customizer/options-general.php:556
+msgid "Show print button"
+msgstr "Näita prindi nuppu"
+
+#: admin/customizer/options-import.php:44 admin/uninstall.php:32
+msgid "ERROR: You are not authorised to perform that operation"
+msgstr "VIGA: Sul pole piisavalt õiguseid, et seda ülesannet sooritada."
+
+#: admin/customizer/options-import.php:64
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr "Ennem kui sa laed üles oma import faili, pead parandama järgneva vea:"
+
+#: admin/customizer/options-import.php:70
+msgid "Import Graphene Theme Colour Presets"
+msgstr "Impordi Graphene teema värvi algsätted"
+
+#: admin/customizer/options-import.php:73
+msgid ""
+"Choose a Graphene theme's colour presets export file from your computer:"
+msgstr "Vali Graphene teema värvi algsätete eksport fail oma arvutist"
+
+#: admin/customizer/options-import.php:74
+#, php-format
+msgid "Maximum size: %s"
+msgstr "Maksimaalne suurus: %s"
+
+#: admin/customizer/options-import.php:81
+msgid "Upload file and import"
+msgstr "Lae üles fail ja impordi"
+
+#: admin/customizer/options-import.php:100
+msgid "Export Graphene Theme Colour Presets"
+msgstr "Ekspordi Graphene teema värvide algsätted."
+
+#: admin/customizer/options-import.php:103
+msgid "Please select the colour presets to be exported."
+msgstr "Palun vali värvi algset sätted eksportimiseks."
+
+#: admin/customizer/options-import.php:113
+msgid "Export colour presets"
+msgstr "Ekspordi värvi algset sätted"
+
+#: admin/customizer/options-import.php:114
+msgid "&laquo; Return to Graphene Options"
+msgstr "&laquo; Mine tagasi Graphene valikutesse"
+
+#: admin/customizer/options-import.php:132
+#, fuzzy
+#| msgid "ERROR: You are not authorised to perform that operation"
+msgid "Authorisation checks failed to perform this operation."
+msgstr "VIGA: Sul pole piisavalt õiguseid, et seda ülesannet sooritada."
+
+#: admin/customizer/options-import.php:154
+msgid "Could not read uploaded file. Please check the file and try again."
+msgstr ""
+
+#: admin/customizer/options-import.php:158
+#, fuzzy
+#| msgid "The uploaded file does not contain valid Graphene options."
+msgid ""
+"Uploaded file does not contain any setting to import. Please check and try "
+"again."
+msgstr "Üleslaaditud faile ei sisalda õigeid Graphene valikuid."
+
+#: admin/customizer/options-import.php:159
+#, fuzzy
+#| msgid "The uploaded file does not contain valid Graphene options."
+msgid ""
+"The uploaded file does not contain valid Graphene options. Please check and "
+"try again."
+msgstr "Üleslaaditud faile ei sisalda õigeid Graphene valikuid."
+
+#: admin/customizer/options-utilities.php:19
+#, fuzzy
+#| msgid "Reset to default settings"
+msgid "Reset theme settings"
+msgstr "Mine tagasi tavalistesse seadetesse"
+
+#: admin/customizer/options-utilities.php:26
+#, fuzzy
+#| msgid "Import/export theme options"
+msgid "Import & export settings"
+msgstr "Import/eksport Teema valikud"
+
+#: admin/customizer/options-utilities.php:33
+msgid ""
+"Import Graphene settings to replace all current Graphene settings on this "
+"website."
+msgstr ""
+
+#: admin/customizer/options-utilities.php:39
+msgid ""
+"Export Graphene settings so that you can import them later on as a backup, "
+"or replicate settings on other websites."
+msgstr ""
+
+#: admin/customizer/options-utilities.php:46
+#, fuzzy
+#| msgid "Use global setting"
+msgid "Legacy settings"
+msgstr "Kasuta globaalseid sätteid"
+
+#: admin/customizer/options-utilities.php:53
+#, fuzzy
+#| msgid "Import Graphene Theme Options"
+msgid "Export legacy Graphene settings"
+msgstr "Impordi Graphene Teema valikud."
+
+#: admin/customizer/options-utilities.php:54
+msgid ""
+"Export legacy Graphene settings in case you need to roll back from Graphene "
+"2.0."
+msgstr ""
+
+#: admin/db-updater.php:247
+#, php-format
+msgid "Follow %s on Twitter"
+msgstr "Jälgi %s Twitteris"
+
+#: admin/db-updater.php:258
+#, php-format
+msgid "Visit %s's Facebook page"
+msgstr "Külasta %s's Facebook'i lehte"
+
+#: admin/feature-pointers.php:9
+msgid "Where are all the options?!"
+msgstr "Kus on kõik valikuvõimalused?!"
+
+#: admin/feature-pointers.php:10
+msgid "We've decided to clean things up!"
+msgstr "Me otsustasime kõik korda teha!"
+
+#: admin/feature-pointers.php:11
+msgid ""
+"We know how too many options can really be daunting to new users, so we've "
+"hidden them."
+msgstr ""
+"Me teame, et liiga palju valikuid võib olla raske uutele kasutajatele, seega "
+"ma oleme nad ära peitnud."
+
+#: admin/feature-pointers.php:12
+msgid ""
+"But no worries! If you're a seasoned user of the Graphene theme, or whenever "
+"you feel ready to further customise your site, just click on the \"Show all "
+"options\" link, and they will magically appear to you."
+msgstr ""
+"Ära muretse! Kui sa oled pikaajaline Graphene teema kasutaja või millal "
+"iganes sa tunned valmisolekut, et oma lehte edasi arendada. Lihtsalt vajutan "
+"\"Näita kõiki valikuid\" lingile, ning nad tekivad sinu ette maagiliselt."
+
+#: admin/options-defaults.php:80
+#, php-format
+msgid "Subscribe to %s's RSS feed"
+msgstr "Telli %s's RSS feed"
+
+#: admin/options-defaults.php:165
+msgid "Default"
+msgstr "Algne"
+
+#: admin/options-defaults.php:169
+msgid "Dream Magnet"
+msgstr "Unemagnet"
+
+#: admin/options-defaults.php:173
+msgid "Curiosity Killed"
+msgstr "Uudishimu tappis"
+
+#: admin/options-defaults.php:177
+msgid "Zesty Orange"
+msgstr "Zesty Oranž"
+
+#: admin/options-init.php:51
+msgid "Graphene Options"
+msgstr "Graphene valikud"
+
+#: admin/options-init.php:110
+msgid "Template preview not found."
+msgstr "Šablooni algset välimust ei leita."
+
+#: admin/options-init.php:113
+msgid "default"
+msgstr "tavaline"
+
+#: admin/options-init.php:172 admin/options-init.php:176
+msgid "Theme default"
+msgstr "Teema tavaline väljanägemine"
+
+#: admin/options-init.php:217
+msgid "Learn more about this feature set"
+msgstr ""
+
+#: admin/options-init.php:218
+#, fuzzy
+#| msgid "Documentation Wiki"
+msgid "Documentation"
+msgstr "Dokumenteerimise Wiki"
+
+#: admin/options.php:26
+#, fuzzy, php-format
+#| msgid "%1$s at %2$s"
+msgid "Version %1$s by %2$s"
+msgstr "%1$s siit %2$s"
+
+#: admin/options.php:32
+#, fuzzy
+#| msgid "Graphene Options"
+msgid "Customise Graphene settings"
+msgstr "Graphene valikud"
+
+#: admin/options.php:37
+msgid "Get community support"
+msgstr ""
+
+#: admin/options.php:42
+msgid ""
+"Graphene theme is a labour of love, but it could not survive on love alone. "
+"Help support the theme and ensure its continuous development."
+msgstr ""
+
+#: admin/options.php:43
+msgid "Make a contribution"
+msgstr ""
+
+#: admin/options.php:47
+msgid "News and announcement"
+msgstr ""
+
+#: admin/options.php:56
+msgid "No news items."
+msgstr "Ei ole uusi asju."
+
+#: admin/uninstall.php:23
+msgid "Uninstall Graphene"
+msgstr "Deinstalleeri Graphene"
+
+#: admin/uninstall.php:24
+#, php-format
+msgid "Theme uninstalled. Redirecting to %s"
+msgstr "Teema deinstalleeritud. Teid viiakse tagasi %s"
+
+#: admin/user.php:7
+msgid "Graphene-specific User Profile Information"
+msgstr "Ainult Graphenele mõeldud kasutaja profiili informatsioon."
+
+#: admin/user.php:8
+msgid "The settings defined here are used only with the Graphene theme."
+msgstr "Siin seatud sätted on ainult kasutatud Graphene teemaga."
+
+#: admin/user.php:12
+msgid "Author profile image URL"
+msgstr "Autori profiili pildi URL"
+
+#: admin/user.php:14
+#, php-format
+msgid ""
+"You can specify the image to be displayed as the author's profile image in "
+"the Author's page. If no URL is defined here, the author's %s will be used."
+msgstr ""
+"Te saate spetsifitseerida pildi asukohta autori profiili pildina Autori "
+"lehel. Kui mingit URLi pole lisatud, autori %s kasutatakse."
+
+#: admin/user.php:19
+#, php-format
+msgid "Please enter the full URL (including %s) to your profile image."
+msgstr "Palun sisesta terve URL (kaasatud %s) oma profiili pildile."
+
+#: admin/user.php:19
+msgid ""
+"<strong>Important: </strong>Image width must be less than or equal to "
+"<strong>150px</strong>."
+msgstr ""
+"<strong>Tähtis: </strong>Pildi laius peab olema vähem või võrdne sellega "
+"<strong>150px</strong>."
+
+#: admin/user.php:24
+msgid "Hide email"
+msgstr ""
+
+#: admin/user.php:28
+msgid "Remove email address from your author bio."
+msgstr ""
+
+#: admin/user.php:33
+msgid "Current location"
+msgstr ""
+
+#: admin/user.php:38
+msgid ""
+"Will be displayed on your front-facing author profile page. Recommended to "
+"use \"City, Country\" format, e.g. \"Lisbon, Portugal\"."
+msgstr ""
+
+#: admin/user.php:43
+#, fuzzy
+#| msgid "Social Media"
+msgid "Social media URLs"
+msgstr "Sotsiaalmeedia"
+
+#: archive.php:24 archive.php:26 archive.php:30
+#, fuzzy, php-format
+#| msgid "%1$s Archive: %2$s"
+msgid "%s archive"
+msgstr "%1$s Arhiiv: %2$s"
+
+#: archive.php:28
+msgid "F Y"
+msgstr ""
+
+#: archive.php:32
+msgid "Blog Archive"
+msgstr "Blogi Arhiiv"
+
+#: author.php:32
+#, fuzzy
+#| msgid "Author's posts listings"
+msgid "Author's posts"
+msgstr "Autori postituste nimekiri"
+
+#: category.php:13
+#, fuzzy, php-format
+#| msgid "Category Archive: <span>%s</span>"
+msgid "Category: <span>%s</span>"
+msgstr "Kategooria Arhiiv: <span>%s</span>"
+
+#: comments.php:25
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"See postitus on parooli kaitstud. Sisestage parool, et kommentaare näha."
+
+#: comments.php:50 inc/loop.php:818 loop-author.php:58
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:52
+#, php-format
+msgid "%s ping"
+msgid_plural "%s pings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:82
+msgid "Skip to comment form"
+msgstr "Otse kommentaariumisse"
+
+#: comments.php:124
+msgid "Comments have been disabled."
+msgstr "Kommentaarium on suletud"
+
+#: comments.php:138
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:141
+msgid "Submit Comment"
+msgstr "Postita kommentaar"
+
+#: footer.php:74
+#, php-format
+msgid "Made with %1$s by %2$s."
+msgstr ""
+
+#: footer.php:76
+#, fuzzy
+#| msgid "Graphene Theme"
+msgid "Graphene Themes"
+msgstr "Graphene Theme"
+
+#: header.php:30
+#, fuzzy
+#| msgid "Disable search box"
+msgid "Toggle search form"
+msgstr "Lülita otsingukast välja"
+
+#: header.php:60 header.php:98
+msgid "Go back to the front page"
+msgstr "Tagasi esilehele"
+
+#: header.php:81
+#, fuzzy
+#| msgid "Slider animation"
+msgid "Toggle navigation"
+msgstr "Slaideri animatsioon"
+
+#: inc/comments.php:25
+msgid "Your comment is awaiting moderation."
+msgstr "Teie kommentaar ootab moderaatori poolt kinnitamist."
+
+#: inc/comments.php:54
+#, fuzzy
+#| msgid "Name:"
+msgid "Name"
+msgstr "Nimi:"
+
+#: inc/comments.php:58
+#, fuzzy
+#| msgid "Email:"
+msgid "Email"
+msgstr "Email:"
+
+#: inc/comments.php:62
+#, fuzzy
+#| msgid "Site title options"
+msgid "Website (optional)"
+msgstr "Lehe tiitli valikud"
+
+#: inc/comments.php:88
+#, fuzzy
+#| msgid "Message:"
+msgid "Your message"
+msgstr "Sõnum:"
+
+#: inc/comments.php:184
+msgid "Delete this comment"
+msgstr "Kustuta see kommentaar"
+
+#: inc/comments.php:186
+msgid "Mark this comment as spam"
+msgstr "Märgi see kommentaar spämmina"
+
+#: inc/comments.php:186
+msgid "Spam"
+msgstr "Spämm"
+
+#: inc/comments.php:213
+msgid "Fetch more comments"
+msgstr "Too veel kommentaare"
+
+#: inc/comments.php:258
+#, php-format
+msgid "%1$s on %2$s <span class=\"time\">at %3$s</span>"
+msgstr ""
+
+#: inc/comments.php:263
+msgid "Author"
+msgstr ""
+
+#: inc/comments.php:271
+msgid "Reply"
+msgstr "Vastus"
+
+#: inc/functions.php:184
+#, php-format
+msgid "Visit %1$s's %2$s page"
+msgstr "Külasta %1$s's %2$s lehte"
+
+#: inc/functions.php:327
+#, php-format
+msgid ""
+"You haven't placed any widget into this widget area. Go to %1$s and place "
+"some widgets in the widget area called %2$s."
+msgstr ""
+"Te ei ole siia ühtegi vidinat sättinud. Mine %1$s ning aseta mõned vidinad "
+"vidina alasse siin %2$s."
+
+#: inc/functions.php:327
+msgid "WP Admin > Appearance > Widgets"
+msgstr "WP Admin > Väljanägemine > Vidinad"
+
+#: inc/functions.php:328
+msgid "This notice will not be displayed to your site's visitors."
+msgstr "Seda märget ei näidata teie lehe külastajatele."
+
+#: inc/infinite-scroll.php:98 inc/scripts.php:73
+#, fuzzy
+#| msgid "Read more"
+msgid "Load more"
+msgstr "Loe veel"
+
+#: inc/loop.php:99 loop.php:36
+msgid "Continue reading"
+msgstr "Jätka lugemist"
+
+#: inc/loop.php:220
+#, fuzzy
+#| msgid "&laquo; Previous page"
+msgid "&laquo; Prev"
+msgstr "&laquo; Eelmine leht"
+
+#: inc/loop.php:221
+#, fuzzy
+#| msgid "Next page &raquo;"
+msgid "Next &raquo;"
+msgstr "Järgmine leht &raquo;"
+
+#: inc/loop.php:235
+msgid "Pages:"
+msgstr "Lehed:"
+
+#: inc/loop.php:573
+#, php-format
+msgid "Print this %s"
+msgstr "Prindi see %s"
+
+#: inc/loop.php:597
+#, php-format
+msgid "Return to %s"
+msgstr "Mine tagasi %s"
+
+#: inc/loop.php:727
+#, fuzzy, php-format
+#| msgid "%1$s at %2$s"
+msgid "By %1$s in %2$s"
+msgstr "%1$s siit %2$s"
+
+#: inc/loop.php:728
+#, php-format
+msgid "Filed under %2$s"
+msgstr ""
+
+#: inc/loop.php:729
+#, fuzzy, php-format
+#| msgid "by %s"
+msgid "By %s"
+msgstr "tehtud %s"
+
+#: inc/loop.php:810
+#, fuzzy
+#| msgid "Tags:"
+msgid "Tags"
+msgstr "Sildid:"
+
+#: inc/loop.php:817
+msgid "Leave comment"
+msgstr "Jäta kommentaar"
+
+#: inc/loop.php:916
+msgid "In this section"
+msgstr ""
+
+#: inc/menus.php:136
+msgid "FontAwesome Icon Name"
+msgstr ""
+
+#: inc/menus.php:179
+#, php-format
+msgid "Choose from 580+ %s"
+msgstr ""
+
+#: inc/menus.php:179
+msgid "available icons"
+msgstr ""
+
+#: inc/menus.php:224
+msgid "Home"
+msgstr "Kodu"
+
+#: inc/menus.php:296
+#, fuzzy, php-format
+#| msgid "(No title)"
+msgid "#%d (no title)"
+msgstr "(Ilma pealkirjata)"
+
+#: inc/panes.php:70 inc/panes.php:85 loop-author.php:58 loop-children.php:45
+#: loop.php:17 loop.php:43
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink kohta %s"
+
+#: inc/panes.php:85
+msgid "Read more"
+msgstr "Loe veel"
+
+#: inc/scripts.php:80
+#, php-format
+msgid "Fetching %1$s of %2$s items left ..."
+msgstr ""
+
+#: inc/scripts.php:84
+#, php-format
+msgid "Fetching %1$s of %2$s item left ..."
+msgid_plural "Fetching %1$s of %2$s items left ..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/scripts.php:89
+msgid "All loaded!"
+msgstr ""
+
+#: inc/scripts.php:93 inc/scripts.php:97
+#, php-format
+msgid "Fetching %1$s of %2$s comments left ..."
+msgid_plural "Fetching %1$s of %2$s comments left ..."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/scripts.php:102
+#, fuzzy
+#| msgid "Author comments top border"
+msgid "All comments loaded!"
+msgstr "Autori kommentaaride ülemine piir"
+
+#: inc/setup.php:96
+msgid "Header Menu"
+msgstr "Peamine menüü"
+
+#: inc/setup.php:98
+msgid "Footer Menu"
+msgstr "Alumine menüü"
+
+#: inc/setup.php:148
+msgid "Forest"
+msgstr ""
+
+#: inc/setup.php:153
+msgid "Mountains"
+msgstr ""
+
+#: inc/setup.php:158
+msgid "Road"
+msgstr ""
+
+#: inc/setup.php:162
+msgid "Header image by Syahir Hakim"
+msgstr "Peamine pilt tehtud Syahir Hakim'i poolt."
+
+#: inc/setup.php:166
+msgid ""
+"This is the default Graphene theme header image, cropped from image by "
+"Quantin Houyoux at sxc.hu"
+msgstr ""
+"See on tavaline Graphene teema välimuse ülemine pilt. Cropitud quantin "
+"Houyouxy at sxc.hu pildilt."
+
+#: inc/setup.php:170 inc/setup.php:174 inc/setup.php:178 inc/setup.php:182
+#: inc/setup.php:186
+msgid "Header image cropped from image by Ilco at sxc.hu"
+msgstr "Ülemine pilt kropitud pildilt llco at sxc.hu poolt."
+
+#: inc/setup.php:207
+#, fuzzy
+#| msgid "Graphene Theme news"
+msgid "Graphene - Sidebar One"
+msgstr "Graphene teema uudised"
+
+#: inc/setup.php:209
+msgid ""
+"The first sidebar widget area (will always be displayed on the right hand "
+"side)."
+msgstr "Esimene külgriba vidinate ala (näeb alati paremat kätt oleval poolel)"
+
+#: inc/setup.php:216
+msgid "Graphene - Sidebar Two"
+msgstr ""
+
+#: inc/setup.php:218
+msgid ""
+"The second sidebar widget area (will always be displayed on the left hand "
+"side)."
+msgstr "Teine külgriba vidinate ala (näeb alati vasakut kätt oleval poolel)"
+
+#: inc/setup.php:236
+#, fuzzy
+#| msgid "Graphene FAQs"
+msgid "Graphene - Footer"
+msgstr "Graphene korduma kippuvad küsimused"
+
+#: inc/setup.php:238
+msgid ""
+"The footer widget area. Leave empty to disable. Set the number of columns to "
+"display at the theme's Display Options page."
+msgstr ""
+"Alumine vidina ala. Jäta tühjaks, et välja lülitada. Säti veergude number, "
+"et näha teema neid teema välimuse displei valikute lehel."
+
+#: inc/setup.php:253
+msgid "Graphene - Sidebar One (Front Page)"
+msgstr ""
+
+#: inc/setup.php:255
+msgid ""
+"The first sidebar widget area that will only be displayed on the front page."
+msgstr "Esimese külgriba vidina ala mida näitab ainult esilehel."
+
+#: inc/setup.php:262
+msgid "Graphene - Sidebar Two (Front Page)"
+msgstr ""
+
+#: inc/setup.php:264
+msgid ""
+"The second sidebar widget area that will only be displayed on the front page."
+msgstr "Teise külgriba vidina ala mida näitab ainult esilehel."
+
+#: inc/setup.php:273
+msgid "Graphene - Footer (Front Page)"
+msgstr ""
+
+#: inc/setup.php:275
+msgid ""
+"The footer widget area that will only be displayed on the front page. Leave "
+"empty to disable. Set the number of columns to display at the theme's "
+"Display Options page."
+msgstr ""
+"Alumine vidina ala mida näitab ainult esilehel. Jäta tühjaks, et välja "
+"lülitada. Vali veergude number, et näeks teema välimuse displei valikute "
+"lehel."
+
+#: inc/setup.php:285
+#, fuzzy
+#| msgid "Graphene Theme"
+msgid "Graphene - Header"
+msgstr "Graphene Theme"
+
+#: inc/setup.php:287
+msgid "The header widget area."
+msgstr "Ülemine vidina ala"
+
+#: inc/setup.php:304
+#, php-format
+msgid ""
+"Dynamically added widget area. This widget area is attached to the %s action "
+"hook."
+msgstr ""
+"Dünaamiliselt lisatud vidina alla. See vidina ala on kinnitatud %s tegevuse "
+"konksule."
+
+#: inc/slider.php:61
+#, fuzzy
+#| msgid "View full post"
+msgid "View post"
+msgstr "Vaata tervet postitust"
+
+#: loop-author.php:58 loop-children.php:45 loop-page.php:5 loop-page.php:16
+#: loop-single.php:16 loop.php:4 loop.php:18
+msgid "(No title)"
+msgstr "(Ilma pealkirjata)"
+
+#: loop-author.php:65
+msgid "Most commented posts"
+msgstr "Enim kommenteeritud postitused"
+
+#: loop-not-found.php:3
+msgid "Not found"
+msgstr "Lehekülge ei leitud"
+
+#: loop-not-found.php:8
+msgid ""
+"Sorry, but you are looking for something that isn't here. Wanna try a search?"
+msgstr ""
+"Vabandust, aga te otsite midagi sellist mida ei ole olemas. Tahate proovida "
+"otsingut?"
+
+#: loop-not-found.php:10
+msgid ""
+"Sorry, but no results were found for that keyword. Wanna try an alternative "
+"keyword search?"
+msgstr ""
+"Vabandust, selle märksõnaga ei leitud midagi. Kas tahate proovida "
+"alternatiivset otsingu märksõna?"
+
+#: loop-page.php:42 loop-single.php:44 loop.php:74
+msgid "Permanent link to this article:"
+msgstr "Igavene link sellele artiklile:"
+
+#: search-404.php:17
+#, php-format
+msgid "Found %1$s search result for keyword: %2$s"
+msgid_plural "Found %1$s search results for keyword: %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: search-404.php:26
+msgid "Suggested results"
+msgstr "Soovitatud tulemused"
+
+#: search-404.php:31
+#, php-format
+msgid ""
+"I've done a courtesy search for the term %1$s for you and found a total of "
+"%2$s result. See if you can find what you're looking for below."
+msgid_plural ""
+"I've done a courtesy search for the term %1$s for you and found a total of "
+"%2$s results. See if you can find what you're looking for below."
+msgstr[0] ""
+msgstr[1] ""
+
+#: search-404.php:52
+msgid ""
+"<strong>Sorry, couldn't find anything.</strong> Try searching for "
+"alternative terms using the search form above."
+msgstr ""
+"<strong>Vabandust, ei suutnud midagi leida. </strong> Proovi otsida teiste "
+"terminitega kasutades ülevalolevat otsingumootorit."
+
+#: search.php:18
+#, fuzzy, php-format
+#| msgid "%1$s at %2$s"
+msgid "%1$d result for %2$s"
+msgid_plural "%1$d results for %2$s"
+msgstr[0] "%1$s siit %2$s"
+msgstr[1] "%1$s siit %2$s"
+
+#: searchform.php:3
+msgid "Search"
+msgstr "Otsing"
+
+#: sidebar-two.php:28
+msgid "Front Page Sidebar Two Widget Area"
+msgstr "Esilehe külgriba Kaks Vidin Ala"
+
+#: sidebar-two.php:30
+msgid "Sidebar Two Widget Area"
+msgstr "Külgriba Kaks Vidin Ala"
+
+#: sidebar.php:28
+msgid "Front Page Sidebar Widget Area"
+msgstr "Esilehe Külgriba Vidin Ala"
+
+#: sidebar.php:30
+msgid "Sidebar Widget Area"
+msgstr "Külgriba Vidin Ala"
+
+#: tag.php:13
+#, fuzzy, php-format
+#| msgid "Tag Archive: <span>%s</span>"
+msgid "Tag: <span>%s</span>"
+msgstr "Sildi Arhiiv: <span>%s</span>"
+
+#: taxonomy.php:15
+#, fuzzy, php-format
+#| msgid "%1$s at %2$s"
+msgid "%1$s: %2$s"
+msgstr "%1$s siit %2$s"
+
+#: template-onecolumn.php:10
+msgid "One column, no sidebar"
+msgstr "Üks veerg, ilma külgribata"
+
+#: template-threecolumnscenter.php:11
+msgid "Three columns, sidebar left and right"
+msgstr "Kolm veergu, külgriba vasakul ja paremal"
+
+#: template-threecolumnsleft.php:13
+msgid "Three columns, sidebars on the right"
+msgstr "Kolm veergu, külgribad paremal"
+
+#: template-threecolumnsright.php:13
+msgid "Three columns, sidebars on the left"
+msgstr "Kolm veergu, külgribad vasakul"
+
+#: template-twocolumnsleft.php:13
+msgid "Two columns, sidebar on the right"
+msgstr "Kaks veergu, külgriba paremal"
+
+#: template-twocolumnsright.php:13
+msgid "Two columns, sidebar on the left"
+msgstr "Kaks veergu, külgriba vasakul"
+
+#~ msgid "Continue reading &raquo;"
+#~ msgstr "Jätka lugemist &raquo;"
+
+#~ msgid "Daily Archive: %s"
+#~ msgstr "Päevane Arhiiv: %s"
+
+#~ msgid "Monthly Archive: %s"
+#~ msgstr "Igakuine Arhiiv: %s"
+
+#~ msgid "Yearly Archive: %s"
+#~ msgstr "Aastane Arhiiv: %s"
+
+#~ msgid ""
+#~ "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> "
+#~ "tags and attributes: %s"
+#~ msgstr ""
+#~ "Võite kasutada järgnevaid <abbr title=\"HyperText Markup Language\">HTML</"
+#~ "abbr>tags and attributes:%s"
+
+#~ msgid "Copyright"
+#~ msgstr "Autoriõigus"
+
+#~ msgid ""
+#~ "Except where otherwise noted, content on this site is licensed under a %s."
+#~ msgstr "Sisu on kaitstud %s kui kuskil mujal muud mainitud ei ole."
+
+#~ msgid "Creative Commons Licence"
+#~ msgstr "Loomingulise Kaitse Litsents"
+
+#~ msgid "Creative Commons Licence BY-NC-ND"
+#~ msgstr "Loomingulise Kaitse Litsents BY-NC-ND"
+
+#~ msgid "Return to top"
+#~ msgstr "Tagasi üles"
+
+#~ msgid "Powered by %1$s and the %2$s."
+#~ msgstr "See leht on üles ehtitatud %1$s ja %2$s abil."
+
+#~ msgid "Author's details"
+#~ msgstr "Detailid autori kohta"
+
+#~ msgid "<strong>Name:</strong> %1$s %2$s"
+#~ msgstr "<strong>Nimi:</strong>%1$s%2$s"
+
+#~ msgid "<strong>Date registered:</strong> %1$s"
+#~ msgstr "<strong>Registreerimise kuupäev:</strong>%1$s"
+
+#~ msgid "Biography"
+#~ msgstr "Biograafia"
+
+#~ msgid "View page &raquo;"
+#~ msgstr "Vaata lehekülge &raquo;"
+
+#~ msgid "Edit %s"
+#~ msgstr "Muuda%s"
+
+#~ msgid "Status update"
+#~ msgstr "Staatuse uuendus"
+
+#~ msgid "Audio"
+#~ msgstr "Heli"
+
+#~ msgid "Image"
+#~ msgstr "Pilt"
+
+#~ msgid "Video"
+#~ msgstr "Video"
+
+#~ msgid "Post format"
+#~ msgstr "Postituse formaat"
+
+#~ msgid "l F j, Y"
+#~ msgstr "-"
+
+#~ msgid "g:i A"
+#~ msgstr "-"
+
+#~ msgid "Edit post"
+#~ msgstr "Muuda postitust"
+
+#~ msgid "Posted on: %s"
+#~ msgstr "Postitatud kuupäeval: %s"
+
+#~ msgid "F j, Y"
+#~ msgstr "-"
+
+#~ msgid "Categories:"
+#~ msgstr "Kategooriad:"
+
+#~ msgid "This post has no tag"
+#~ msgstr "Sellel postil ei ole silte"
+
+#~ msgid "About the author"
+#~ msgstr "Autorist"
+
+#~ msgid "Read the rest of this entry &raquo;"
+#~ msgstr "Loe rohkem selle sisestuse kohta &raquo;"
+
+#~ msgid "Graphene's Frequently Asked Questions"
+#~ msgstr "Graphene korduma kippuvad küsimused"
+
+#~ msgid "Where should I go for the theme's support?"
+#~ msgstr "Kuhu ma peaksin minema, et teema välimuse "
+
+#~ msgid ""
+#~ "But of course, the author would always appreciate <a href=\"themes.php?"
+#~ "page=graphene_options\">donations</a> to support ongoing and future "
+#~ "developments of the theme."
+#~ msgstr ""
+#~ "Muidugi alati, autor on tänulik annetuste eest, et edasi arendada teemat "
+#~ "tulevikus. "
+
+#~ msgid ""
+#~ "If the theme is released under GPLv3, what is this Creative Commons "
+#~ "licence in the theme's footer?"
+#~ msgstr ""
+#~ "Kui see teema on avaldatud GPLv3 alt, mis asi on see Loomingulise "
+#~ "tegevuse litsents teema jalutsis?"
+
+#~ msgid ""
+#~ "The Creative Commons licence is a popular licence nowadays that are used "
+#~ "by a lot of web-based content authors to licence their work such that it "
+#~ "protects their intellectual property but in the same time allows its free "
+#~ "distribution. It is included with the theme simply to make it easy for "
+#~ "the theme's users to make use of the licence for the content they "
+#~ "publish. Theme users can remove it altogether via the theme's Options "
+#~ "page should they wish not to use it."
+#~ msgstr ""
+#~ "Loomingulise tegevuse litsents on populaarne litsents tänapäeval. "
+#~ "Kasutatakse väga palju erinevate veebi-baasil tegelevate autorite poolt, "
+#~ "et nad saaksid oma loomingut kaitsta. Samal ajal see litsents lubab "
+#~ "tasuta sisu jagamist ja kasutamist. Litsentsi saab eemaldada, aga on "
+#~ "lihtsalt teemaga kaasa pandud, et autor saaks oma sisu kaitsta."
+
+#~ msgid ""
+#~ "Put simply, <em>it is not the licence that is applied for the theme "
+#~ "itself</em>, but just for the website's content should the theme user "
+#~ "wants to use it."
+#~ msgstr ""
+#~ "Pane lihtsalt, <em> see ei ole litsents, mis on just selle teema kohta </"
+#~ "em>, aga pigem veebilehe sisu jaoks, juhul kui kasutaja tahab seda "
+#~ "kasutada."
+
+#~ msgid "Is the theme compatible with this plugin or that plugin?"
+#~ msgstr "Kas see teema sobib selle lisavidinaga või selle lisavidinaga?"
+
+#~ msgid ""
+#~ "I don't know. With so many plugins available for WordPress, there's no "
+#~ "way that I (or anybody else for that matter) can test for compatibility "
+#~ "for all of them. Having said that, the theme is built with all the "
+#~ "necessary WordPress components included with it, so chances are most "
+#~ "plugins will be compatible with the theme."
+#~ msgstr ""
+#~ "Ma ei tea. Kõikide erinevate lisadega mis on võimalikud WordPressis ei "
+#~ "ole võimalust, et mina või keegi teine suudan nende kõigi töövõimekust "
+#~ "kontrollida. Seda öeldes, teema on ehitatud kõigi vajalike WordPressi "
+#~ "komponentidega. Seega on väga suur tõenäosus, et enamus neid töötavad "
+#~ "minu tehtud teemaga."
+
+#~ msgid ""
+#~ "My suggestion is to just install the plugin and try it. If you stumble "
+#~ "into problem, ask for support from the plugin author first. If the plugin "
+#~ "author says that it's a problems with the theme, you know where to find "
+#~ "support."
+#~ msgstr ""
+#~ "Minu soovitus on lihtsalt installida see lisa ning seda proovida. Kui sa "
+#~ "satud probleemidesse, kontakteeru lisa autoriga. Kui Lisa autor ütleb, et "
+#~ "see on teema probleem, siis sa tead kust ühendust võtta."
+
+#~ msgid "Preview"
+#~ msgstr "Eelvaade"
+
+#~ msgid "Enable preview of your site on the Graphene Theme Options page"
+#~ msgstr "Luba oma saidi eelvaade Graphene teema valikute lehelt."
+
+#~ msgid "Save All Options"
+#~ msgstr "Salvesta kõik valikd"
+
+#~ msgid "Rescan action hooks"
+#~ msgstr "Reskanneeri tegevuskonksud"
+
+#~ msgid "Move generated CSS"
+#~ msgstr "Liiguta genereeritud CSS"
+
+#~ msgid ""
+#~ "If you're using a child theme, you can move the CSS codes generated by "
+#~ "the theme into the child theme's %s file."
+#~ msgstr ""
+#~ "Kui kasutad lapsteemat, saad sa liigutada CSS koodid mis on genereeritud "
+#~ "teema poolt lapsteema %s faili."
+
+#~ msgid ""
+#~ "The CSS codes are generated from the various customisation options in the "
+#~ "theme's options pages, including any codes you have entered in the Custom "
+#~ "CSS option."
+#~ msgstr ""
+#~ "CSS koodid on genereeritud erinevatelt muutmisvõimalustest teema valikute "
+#~ "lehelt, kaasatud ükskõik mis koodid mis sa oled isestanud oma erilisse "
+#~ "CSS valikusse."
+
+#~ msgid "This will reduce up to %.1f KB on every page load for your site."
+#~ msgstr "See võtab maha %.1f KB iga lehe laadimiselt"
+
+#~ msgid ""
+#~ "You will need to update your child theme's %s file everytime you change "
+#~ "any options that rely on CSS to be implemented, such as column widths and "
+#~ "colours."
+#~ msgstr ""
+#~ "Pead uuendama oma lapsteemas %s faili igakord kui muudad midagi "
+#~ "valikutest mis kaasavad CSSi. Näiteks veergude laiused ja värvid."
+
+#~ msgid "I have moved the generated CSS"
+#~ msgstr "Ma olen liigutanud genereeritud CSSi"
+
+#~ msgid "CSS codes generated by the theme"
+#~ msgstr "CSS koodid genereeritud teema poolt"
+
+#~ msgid "Select all"
+#~ msgstr "Vali kõik"
+
+#~ msgid ""
+#~ "When you've got the perfect combination, you can even share it with "
+#~ "fellow Graphene theme users through the %s."
+#~ msgstr ""
+#~ "Kui sul on väljatulnud perfektne kombinatsioon, siis saad sa isegi seda "
+#~ "jagada teiste Graphene theme kasutajatega läbi %s."
+
+#~ msgid "Support Forum"
+#~ msgstr "Toetav foorum"
+
+#~ msgid ""
+#~ "<strong>Note:</strong> The previews work best on modern Gecko- and Webkit-"
+#~ "based browsers, such as Mozilla Firefox and Google Chrome."
+#~ msgstr ""
+#~ "<strong>Note:</strong> Eelvaade töötab kõige paremini modernse Gecko- ja "
+#~ "Webkiti- põhjal olevat browseritel nagu Mozzilla Firefox ja Google Chrome."
+
+#~ msgid ""
+#~ "<strong>Note:</strong> To reset any of the colours to their default "
+#~ "value, just click on \"Clear\" beside the colour field and save the "
+#~ "settings. The theme will automatically revert the value to the default "
+#~ "colour."
+#~ msgstr ""
+#~ "<strong>Note:</strong> Värvide tagasimuutmiseks oma originaalsesse "
+#~ "väärtusesse, vajuta lihtsalt \"Tühjenda\" värvi ala kõrval ja salvesta "
+#~ "sätted. Teema muutub nüüd automaatselt tagasi algsesse värvi."
+
+#~ msgid "Colour presets"
+#~ msgstr "Värvide eelsätted"
+
+#~ msgid ""
+#~ "These are some colour presets that you may use, either as is or tweak "
+#~ "them further to your liking."
+#~ msgstr ""
+#~ "Need on mõned värvide eelsätted, mida võid kasutada. Nii nagu nad on või "
+#~ "muuda neid oma meeldimise järgi."
+
+#~ msgid "Delete preset"
+#~ msgstr "Kustuta eelsätted"
+
+#~ msgid "Save current settings as preset"
+#~ msgstr "Salvesta praegused sätted eelsätetena"
+
+#~ msgid "Top bar preview"
+#~ msgstr "Ülemise riba eelvaade"
+
+#~ msgid "Bottom border"
+#~ msgstr "Alumine piir"
+
+#~ msgid "Header top border"
+#~ msgstr "Päise ülemine piir"
+
+#~ msgid "Clear"
+#~ msgstr "Selge"
+
+#~ msgid "Menu preview"
+#~ msgstr "Menüü eelvaade"
+
+#~ msgid "Active menu item"
+#~ msgstr "Aktiivne menüü osa"
+
+#~ msgid "Menu item description"
+#~ msgstr "Menüü osa iseloomustus"
+
+#~ msgid "Menu item"
+#~ msgstr "Menüü osa"
+
+#~ msgid "Dropdown menu item"
+#~ msgstr "Rippmenüü osa"
+
+#~ msgid "Box shadow"
+#~ msgstr "Kasti vari"
+
+#~ msgid "Secondary menu"
+#~ msgstr "Teine menüü"
+
+#~ msgid "Active and hover state"
+#~ msgstr "Aktiivne ja hõljuv olek"
+
+#~ msgid "Post and pages bottom border"
+#~ msgstr "Postituste ja lehtede alumine piir"
+
+#~ msgid "Widget preview"
+#~ msgstr "Vidina eelvaade"
+
+#~ msgid "Widget title"
+#~ msgstr "Vidina pealkiri"
+
+#~ msgid "List item"
+#~ msgstr "Nimekirjas olev "
+
+#~ msgid "Widget title colour"
+#~ msgstr "Vidina pealkirja värv"
+
+#~ msgid "Widget title text shadow colour"
+#~ msgstr "Päise vidina pealkirja varju värv"
+
+#~ msgid "Widget header gradient bottom colour"
+#~ msgstr "Päise vidina alumine värv"
+
+#~ msgid "Widget header gradient top colour"
+#~ msgstr "Päise vidina ülemine värv"
+
+#~ msgid "Slider background preview"
+#~ msgstr "Slaideri tagatausta eelvaade"
+
+#~ msgid "Slider top left colour"
+#~ msgstr "Slaideri ülevalt vasakpoolne värv"
+
+#~ msgid "Slider bottom right colour"
+#~ msgstr "Slaideri alt parempoolne värv"
+
+#~ msgid "Block buttons"
+#~ msgstr "Blokeerimise nupud"
+
+#~ msgid "Block button preview"
+#~ msgstr "Blokeerimise nupu eelvaade"
+
+#~ msgid "Button background colour"
+#~ msgstr "Nupu tagatausta värv"
+
+#~ msgid "Button label colour"
+#~ msgstr "Nupu märgise värv"
+
+#~ msgid "Button label text shadow"
+#~ msgstr "Nupu märgise teksti vari"
+
+#~ msgid "Button box shadow"
+#~ msgstr "Nupu kasti vari"
+
+#~ msgid "Archive title"
+#~ msgstr "Arhiivi pealkiri"
+
+#~ msgid "Archive title preview"
+#~ msgstr "Arhiivi pealkirja eelvaade"
+
+#~ msgid "Sample title"
+#~ msgstr "Proovi pealkiri"
+
+#~ msgid "Archive background gradient left colour"
+#~ msgstr "Arhiivi tagatausta vasakpoolne värv"
+
+#~ msgid "Archive background gradient right colour"
+#~ msgstr "Arhiivi tagatausta parempoolne värv"
+
+#~ msgid "Archive text colour"
+#~ msgstr "Arhiivi teksti värv"
+
+#~ msgid "Archive label and text shadow colour"
+#~ msgstr "Arhiivi märgis ja teksti varjundi värv"
+
+#~ msgid "Threaded comments border"
+#~ msgstr "Keermestatud kommentaaride piir"
+
+#~ msgid "Author comments background"
+#~ msgstr "Autori kommentaaride taust"
+
+#~ msgid "Author comments text"
+#~ msgstr "Autori kommentaaride tekst"
+
+#~ msgid "Comment form background"
+#~ msgstr "Kommentaari avalduse taust"
+
+#~ msgid "Comment form text"
+#~ msgstr "Kommentaari avalduse tekst"
+
+#~ msgid "Link colour (normal state)"
+#~ msgstr "Lingi värv (tavaline olek)"
+
+#~ msgid "Link colour (visited state)"
+#~ msgstr "Lingi värv (külastatud olek)"
+
+#~ msgid "Footer preview"
+#~ msgstr "Jalutsi eelvaade"
+
+#~ msgid "Heading"
+#~ msgstr "Rubriik"
+
+#~ msgid "Submenu text"
+#~ msgstr "Alammenüü tekst"
+
+#~ msgid "Submenu border"
+#~ msgstr "Alammenüü piir"
+
+#~ msgid "Header Display Options"
+#~ msgstr "Päise väljanägemise valikud"
+
+#~ msgid "Column Options"
+#~ msgstr "Veeru valikud"
+
+#~ msgid "Two columns (with sidebar right)"
+#~ msgstr "Kaks veergu (külgriba paremal)"
+
+#~ msgid "Three columns (with two sidebars right)"
+#~ msgstr "Kolm veergu (kaks külgriba paremal)"
+
+#~ msgid "Three columns (with sidebars left and right)"
+#~ msgstr "Kolm veergu (külgread vasakul ja paremal)"
+
+#~ msgid "bbPress column mode"
+#~ msgstr "bbPress veeru viis"
+
+#~ msgid "Column Width Options"
+#~ msgstr "Veeru Laiuse Valikud"
+
+#~ msgid "Posts Display Options"
+#~ msgstr "Postituse väljanägemise valikud"
+
+#~ msgid ""
+#~ "Only affects posts listing (such as the front page) and not single post "
+#~ "view."
+#~ msgstr ""
+#~ "Ainult mõjuta postituste nimekirja (nagu esileht) ja mitte üksiku "
+#~ "postituse vaadet."
+
+#~ msgid "Show post author's <a href=\"http://en.gravatar.com/\">gravatar</a>"
+#~ msgstr ""
+#~ "Näita postituse autori <a href=\"http://en.gravatar.com/\">gravatar</a>"
+
+#~ msgid "Show post author's info"
+#~ msgstr "Näita postituse autori infot"
+
+#~ msgid "Excerpts Display Options"
+#~ msgstr "Katkendite displei valikud"
+
+#~ msgid ""
+#~ "Note: Archive pages include the archive for category, tags, time, and "
+#~ "search results pages. Enabling this option will cause the full content of "
+#~ "posts and pages listed in those archives to displayed instead of the "
+#~ "excerpt, and truncated by the Read More tag if used."
+#~ msgstr ""
+#~ "Tähelepanek: Arhiivi lehed sisaldavad arhiivi kategooriate, siltide, aja "
+#~ "ja otsingu tulemusi. Lubades seda valikut põhjustab terve sisu mis "
+#~ "koosneb  postitustest ja lehtedest nimekirjas näitamiseks, erinevalt "
+#~ "katkenditest lühendatud Read More sildiga kui kasutatud."
+
+#~ msgid "Comments Display Options"
+#~ msgstr "Kommentaaride väljanägemise valikud"
+
+#~ msgid "Hide allowed tags in comment form"
+#~ msgstr "Peida lubatud sildid kommentaari avaldustes"
+
+#~ msgid "Text Style Options"
+#~ msgstr "Teksti stiili valikud"
+
+#~ msgid "Google Webfonts"
+#~ msgstr "Google Veebifondid"
+
+#~ msgid "Font families"
+#~ msgstr "Fondi suguvõsa"
+
+#~ msgid ""
+#~ "Enter the Google Webfont font family string in the format that is used in "
+#~ "the Webfont Loader, one font family per line."
+#~ msgstr ""
+#~ "Sisesta Google Webfont fondi suguvõsa sellises formaadis nagu ta on "
+#~ "kasutatud Webfondi Laadijas, üks fondi suguvõsa ühe rea jaoks."
+
+#~ msgid "Example:"
+#~ msgstr "Näide:"
+
+#~ msgid ""
+#~ "The following options are CSS properties, so any valid CSS values for "
+#~ "each particular property can be used."
+#~ msgstr ""
+#~ "Järgnevad valkud on CSSi omadused, kõiki õigeid CSSi väärtusi saab "
+#~ "kasutada kindlate asjade jaoks."
+
+#~ msgid "Some example CSS properties values:"
+#~ msgstr "Mõned näited CSS omaduste väärtustest:"
+
+#~ msgid "Text font:"
+#~ msgstr "Teksti font:"
+
+#~ msgid "Text size and line height:"
+#~ msgstr "Teksti suurus ja rea kõrgus:"
+
+#~ msgid "Text weight:"
+#~ msgstr "Teksti raskus:"
+
+#~ msgid "Text style:"
+#~ msgstr "Teksti stiil:"
+
+#~ msgid "Text colour:"
+#~ msgstr "Teksti värv:"
+
+#~ msgid "Title text font"
+#~ msgstr "Pealkirja teksti font"
+
+#~ msgid "Title text size"
+#~ msgstr "Pealkirja teksti suurus"
+
+#~ msgid "Title text weight"
+#~ msgstr "Pealkirja teksti raskus"
+
+#~ msgid "Title text line height"
+#~ msgstr "Pealkirja teksti rea kõrgus"
+
+#~ msgid "Title text style"
+#~ msgstr "Pealkirja teksti stiil"
+
+#~ msgid "Description text font"
+#~ msgstr "Iseloomustuse teksti font"
+
+#~ msgid "Description text size"
+#~ msgstr "Iseloomustuse teksti suurus"
+
+#~ msgid "Description text weight"
+#~ msgstr "Iseloomustuse teksti raskus"
+
+#~ msgid "Description text line height"
+#~ msgstr "Iseloomustuse teksti rea kõrgus"
+
+#~ msgid "Description text style"
+#~ msgstr "Iseloomustuse teksti stiil"
+
+#~ msgid "Content Text"
+#~ msgstr "Sisu tekst"
+
+#~ msgid "Text font"
+#~ msgstr "Teksti font"
+
+#~ msgid "Text size"
+#~ msgstr "Teksti suurus"
+
+#~ msgid "Text line height"
+#~ msgstr "Teksti rea kõrgus"
+
+#~ msgid "Link Text"
+#~ msgstr "Lingi tekst"
+
+#~ msgid "Text decoration (normal state )"
+#~ msgstr "Teksti dekoratsioon (tavaline olek)"
+
+#~ msgid "Footer Widget Display Options"
+#~ msgstr "Jalutsi vidina displei valikud"
+
+#~ msgid "Number of columns to display"
+#~ msgstr "Veergude arv mida näitab"
+
+#~ msgid "Number of columns to display for front page footer widget"
+#~ msgstr "Veergude arv mida näitab esilehe jalutsi vidinas"
+
+#~ msgid "Navigation Menu Display Options"
+#~ msgstr "Navigatsiooni menüü displei valikud"
+
+#~ msgid "Dropdown menu item width"
+#~ msgstr "Rippmenüü aspekti laius"
+
+#~ msgid "Disable description in Header Menu"
+#~ msgstr "Lülita välja kirjeldus Peamise menüü kohta."
+
+#~ msgid "Description for default menu \"Home\" item"
+#~ msgstr "Kirjeldus algse menüü \"Kodu\" kohta"
+
+#~ msgid ""
+#~ "Use these tags to customise your own site title structure: <code>#site-"
+#~ "name</code>, <code>#site-desc</code>, <code>#post-title</code>"
+#~ msgstr ""
+#~ "Kasuta neid silte, et ehitada oma enda saidi tiitli struktuur: "
+#~ "<code>#site-name</code>, <code>#site-desc</code>, <code>#post-title</code>"
+
+#~ msgid "Custom front page site title"
+#~ msgstr "Eriline esilehe pealkiri"
+
+#~ msgid ""
+#~ "Defaults to <code>#site-name &raquo; #site-desc</code>. The <code>#post-"
+#~ "title</code> tag cannot be used here."
+#~ msgstr ""
+#~ "Algsed <code>#site-name &raquo; #site-desc</code>. The <code>#post-title</"
+#~ "code> silte ei saa siin kasutada."
+
+#~ msgid "Custom content pages site title"
+#~ msgstr "Erilised sisulehtede saidi pealkirjad"
+
+#~ msgid "Defaults to <code>#post-title &raquo; #site-name</code>."
+#~ msgstr "Algsed <code>#post-title &raquo; #site-name</code>."
+
+#~ msgid "Favicon options"
+#~ msgstr "Faviconi võimalused"
+
+#~ msgid "Favicon URL"
+#~ msgstr "Favicon URL"
+
+#~ msgid "Upload or select image from gallery"
+#~ msgstr "Lae üles või vali pilt galeriist."
+
+#~ msgid ""
+#~ "Simply enter the full URL to your favicon file here to enable favicon. "
+#~ "Make sure you include the <code>http://</code> in front of the URL as "
+#~ "well. Or use the WordPress media uploader to upload an image, or select "
+#~ "one from the media library."
+#~ msgstr ""
+#~ "Lihtsalt sisesta terve URL oma favicon failile siia, et võimaldada "
+#~ "favicon. Ole kindel, et lisasid koodi <code>http://</code> URLi ette. Või "
+#~ "kasuta WordPressi meedia üleslaadijat, et üles laadida pilt või vali üks "
+#~ "meedia raamatukogust."
+
+#~ msgid "WordPress Editor options"
+#~ msgstr "WordPressi toimetaja valikud"
+
+#~ msgid "Custom CSS"
+#~ msgstr "Eriline CSS"
+
+#~ msgid "Custom CSS styles"
+#~ msgstr "Erilised CSS stiilid"
+
+#~ msgid ""
+#~ "You can enter your own CSS codes below to modify any other aspects of the "
+#~ "theme's appearance that is not included in the options."
+#~ msgstr ""
+#~ "Võid sisestada oma enda CSS koodid allpool, et modifitseerida ükskõik mis "
+#~ "teema välimuse aspekti mida ei ole võimalik valikutest muuta."
+
+#~ msgid "Slider Options"
+#~ msgstr "Slaideri valikud"
+
+#~ msgid "What do you want to show in the slider"
+#~ msgstr "Mida sa tahad slaideri näidata"
+
+#~ msgid ""
+#~ "Applicable only if <strong>Show specific posts/pages</strong> is selected "
+#~ "above."
+#~ msgstr ""
+#~ "Kohaldatav ainult kui <strong> Näita spetsiifilisi postitusi/lehti</"
+#~ "strong> on valitud ülalt"
+
+#~ msgid "Click to select categories or type to search"
+#~ msgstr "Kliki, et valida kategooriaid või kirjuta, et otsida"
+
+#~ msgid "Home Page"
+#~ msgstr "Koduleht"
+
+#~ msgid "Everywhere"
+#~ msgstr "Igalpool"
+
+#~ msgid "Thumbnail and excerpt"
+#~ msgstr "Thumbneil ja katkend"
+
+#~ msgid "Horizontal slide"
+#~ msgstr "Horisontaalne slaid"
+
+#~ msgid "Vertical slide"
+#~ msgstr "Vertikaalne slaid"
+
+#~ msgid "Fade"
+#~ msgstr "Hajub"
+
+#~ msgid "No effect"
+#~ msgstr "Puudub effekt"
+
+#~ msgid "Slider transition speed"
+#~ msgstr "Slaideri muutumise kiirus"
+
+#~ msgid ""
+#~ "This is the speed of the slider transition. Lower values = higher speed."
+#~ msgstr ""
+#~ "See on slaideri muutumise kiirus. Väiksemad väärtused = kiirem kiirus"
+
+#~ msgid ""
+#~ "Let the theme pull the next set of posts or comments into view when "
+#~ "visitor approaches the bottom of the page."
+#~ msgstr ""
+#~ "Lase teemal tõmmata järgmine kamp postitusi või kommentaare kui külastaja "
+#~ "läheneb lehe jalutsile"
+
+#~ msgid "Enable Infinite Scroll"
+#~ msgstr "Luba igavene skrollimine"
+
+#~ msgid "Click to fetch more items"
+#~ msgstr "Kliki, et tuua veel asju"
+
+#~ msgid "Enable Infinite Scroll for comments"
+#~ msgstr "Luba igavikune kerimine kommentaaride vaatamiseks"
+
+#~ msgid "Latest posts by category"
+#~ msgstr "Uusimad postitused kategooria järgi"
+
+#~ msgid "Posts and/or pages"
+#~ msgstr "Postitused ja/või lehed"
+
+#~ msgid "Number of latest posts to display"
+#~ msgstr "Näita uusimate postituste arvu"
+
+#~ msgid ""
+#~ "Applicable only if <strong>Latest posts</strong> or <strong>Latest posts "
+#~ "by category</strong> is selected above."
+#~ msgstr ""
+#~ "Kohaldatav ainult kui <strong> Uusimad postitused</strong> või <strong> "
+#~ "Uusimad postitused kategooria järgi</strong> on valitud ülevalt"
+
+#~ msgid ""
+#~ "Applicable only if <strong>Latest posts by category</strong> is selected "
+#~ "above."
+#~ msgstr ""
+#~ "Kohaldatav ainult kui <strong> Uusimad postitused kategooria järgi </"
+#~ "strong> on valitud ülevalt."
+
+#~ msgid ""
+#~ "Applicable only if <strong>Posts and/or pages</strong> is selected above."
+#~ msgstr ""
+#~ "Kohaldatav ainult kui <strong> Postid ja/või lehed </strong> on valitud "
+#~ "ülevalt."
+
+#~ msgid ""
+#~ "<strong>Note:</strong> homepage panes are only displayed when using a <a "
+#~ "href=\"http://codex.wordpress.org/Creating_a_Static_Front_Page\">static "
+#~ "front page</a>."
+#~ msgstr ""
+#~ "<strong> Tähelepanu:</strong> kodulehe paneele on ainult näha kui "
+#~ "kasutate <a href=\"http://codex.wordpress.org/Creating_a_Static_Front_Page"
+#~ "\">static front page</a>."
+
+#~ msgid "Comments Options"
+#~ msgstr "Kommentaari valikud"
+
+#~ msgid "Header widget area"
+#~ msgstr "Peamine vidina ala"
+
+#~ msgid "Alternate Widgets"
+#~ msgstr "Alternatiivsed Vidinad"
+
+#~ msgid ""
+#~ "You can enable the theme to show different widget areas in the front page "
+#~ "than the rest of the website. If you enable this option, additional "
+#~ "widget areas that will only be displayed on the front page will be added "
+#~ "to the Widget settings page."
+#~ msgstr ""
+#~ "Saad lubada teemal näidata erinevaid vidina alasid esilehel, mitte mujal "
+#~ "oma veebilehel. Kui võimaldad selle valikuda, siis lisa vidina alad- mida "
+#~ "näitab ainult kodulehel, lisatakse Vidinate sätete lehele."
+
+#~ msgid ""
+#~ "You can also specify different column counts for the front page footer "
+#~ "widget and the rest-of-site footer widget if you enable this option."
+#~ msgstr ""
+#~ "Sa saad ka valida spetsiifiliseid erinevaid veergude arve esilehe jalutsi "
+#~ "vidina ja ülejäänud lehe jalutsi vidina kui võimaldad selle valiku."
+
+#~ msgid "Top Bar Options"
+#~ msgstr "Ülemise rea valikud"
+
+#~ msgid "Hide the top bar"
+#~ msgstr "Peida ülemine riba"
+
+#~ msgid ""
+#~ "<strong>Hint:</strong> drag and drop to rearrange the placement of the "
+#~ "social media icons."
+#~ msgstr ""
+#~ "<strong>Vihje:</strong> lohista ja kukuta, et sotsiaalmeedia ikoone ümber "
+#~ "tõsta"
+
+#~ msgid "Title attribute"
+#~ msgstr "Pealkirja atribuut"
+
+#~ msgid "Type"
+#~ msgstr "Tüüp"
+
+#~ msgid "Show in Pages as well?"
+#~ msgstr "Näita lehtedel ka?"
+
+#~ msgid ""
+#~ "Enabling this will cause the social sharing buttons to appear on posts "
+#~ "listing pages, like the home page and archive pages. Use the available "
+#~ "tags in the code below to get the post's URL, title, and excerpt. "
+#~ "Otherwise, all your buttons will share the same URL and title. If you're "
+#~ "using AddThis, see the %s."
+#~ msgstr ""
+#~ "Kui selle aktiveerite, tekivad sotsiaalse jagamise nupud postituste "
+#~ "nimekirja lehel, nagu koduleht ja arhiiv. Kasuta silte allpool olevas "
+#~ "koodis, e saada postituste URL, pealkiri ja katkendid. Muidu, kõik nupud "
+#~ "jagavad sama URLi ja pealkirja. Kui kasutate AddThis, vaadake seda %s."
+
+#~ msgid "AddThis Client API"
+#~ msgstr "AddThis kliendi API"
+
+#~ msgid "Both top and bottom"
+#~ msgstr "Mõlemad, üleval ja all"
+
+#~ msgid "Your social sharing button code"
+#~ msgstr "Sinu sotsiaalse jagamise nupu kood"
+
+#~ msgid "You may use these tags to get the post's URL, title, and excerpt:"
+#~ msgstr ""
+#~ "Võid kasutada neid silte, et saada postituse URL, pealkiri ja katkendid"
+
+#~ msgid "Adsense Options"
+#~ msgstr "Adsense valikud"
+
+#~ msgid "Show Adsense advertising"
+#~ msgstr "Näita Adsense reklaame"
+
+#~ msgid "Show ads on front page as well"
+#~ msgstr "Näita reklaame ka kodulehel"
+
+#~ msgid "Google Analytics Options"
+#~ msgstr "Google analüütikute valikud"
+
+#~ msgid ""
+#~ "<strong>Note:</strong> the theme now places the Google Analytics script "
+#~ "in the <code>&lt;head&gt;</code> element to better support the new "
+#~ "asynchronous Google Analytics script. Please make sure you update your "
+#~ "script to use the new asynchronous script from Google Analytics."
+#~ msgstr ""
+#~ "<strong>Pane tähele:</strong> teema asetub nüüd Google analüütikute "
+#~ "scriptis siin <code>&lt;head&gt;</code> elemendis paremaks abiks uuele "
+#~ "Google analüütikute skriptile. Palun tee kindlaks, et sa uuendad oma "
+#~ "skripti kasutades uut asünkroonset skripti Google Analüütikute poolt."
+
+#~ msgid ""
+#~ "Make sure you include the full tracking code (including the <code>&lt;"
+#~ "script&gt;</code> and <code>&lt;/script&gt;</code> tags) and not just the "
+#~ "<code>UA-#######-#</code> code."
+#~ msgstr ""
+#~ "Tee kindlaks, et lisad terve jälitamise koodi. (Lisades <code>&lt;"
+#~ "script&gt;</code> ja <code>&lt;/script&gt;</code>tags) mitte ainult "
+#~ "<code>UA-#######-#</code> koodi."
+
+#~ msgid "Footer Options"
+#~ msgstr "Jalutsi võimalused"
+
+#~ msgid "Use Creative Commons licence for content"
+#~ msgstr "Kasuta loomingulise litsentsi sisu jaoks"
+
+#~ msgid ""
+#~ "If this field is empty, the following default copyright text will be "
+#~ "displayed:"
+#~ msgstr ""
+#~ "Kui see ala on tühi, järgnev tavaline autorikaitse tekst näidatakse siin:"
+
+#~ msgid "Print Options"
+#~ msgstr "Printimis valikud"
+
+#~ msgid "ERROR: You have not selected any colour presets to be exported."
+#~ msgstr "VIGA: Sa ei ole valinud värvi eelsätteid, et neid eksportida."
+
+#~ msgid "Choose a file from your computer:"
+#~ msgstr "Vali fail oma arvutist: "
+
+#~ msgid "Options import completed."
+#~ msgstr "Valikute import lõpetatud."
+
+#~ msgid "Sorry, there has been an error."
+#~ msgstr "Vabandust, midagi läks valesti."
+
+#~ msgid "Colour presets import completed."
+#~ msgstr "Värvi algsete sätete importimine lõpetatud."
+
+#~ msgid "The uploaded file does not contain valid Graphene colour presets."
+#~ msgstr "Üleslaaditud fail ei sisalda õigeid Graphene värvi algseid sätteid."
+
+#~ msgid "The uploaded file could not be read."
+#~ msgstr "Üleslaaditud faili ei saanud lugeda."
+
+#~ msgid "The uploaded file is not supported."
+#~ msgstr "Üleslaaditud fail ei ole toetatud."
+
+#~ msgid ""
+#~ "File is empty. Please upload something more substantial. This error could "
+#~ "also be caused by uploads being disabled in your php.ini or by "
+#~ "post_max_size being defined as smaller than upload_max_filesize in php."
+#~ "ini."
+#~ msgstr ""
+#~ "Fail on tühi. Palun lae üles midagi rohkem olulisemat. See Viga võib olla "
+#~ "ka põhjustatud sellest, et üleslaadimised on väljalülitatud sinu ph.ini "
+#~ "või post_max_size defineeritud väiksemana kui upload_max_filesize php.ini "
+#~ "failis."
+
+#~ msgid "What should we call this preset?"
+#~ msgstr "Kuidas me võiksime kutsuda seda algset seadet"
+
+#~ msgid "Preset name is required to save a preset."
+#~ msgstr "Algset nime on vaja, et salvestada algset seisu"
+
+#~ msgid "You are deleting this preset:"
+#~ msgstr "Te kustutate selle algse väljanägemise:"
+
+#~ msgid "Toggle all options boxes"
+#~ msgstr "Lülita sisse/välja kõikide valikute kaste"
+
+#~ msgid "The \"Normal website\" settings preset has been applied."
+#~ msgstr "\"Normal website\" sätete eelväljanägemine on lisatud."
+
+#~ msgid "Settings have been reset."
+#~ msgstr "Sätted on restarditud."
+
+#~ msgid "ERROR: Invalid category to show in slider."
+#~ msgstr "VIGA: Vale kategooria, et slaideris seda näha."
+
+#~ msgid ""
+#~ "ERROR: You must specify the posts/pages to be displayed when you have "
+#~ "\"Show specific posts/pages\" selected for the slider."
+#~ msgstr ""
+#~ "VIGA: Peate täpsustama postitused/lehed, et oleks näha kui teil on "
+#~ "\"Näita kindlaid postitusi/lehekülgi\" valitud slaideri jaoks."
+
+#~ msgid ""
+#~ "ERROR: You must have selected at least one category when you have \"Show "
+#~ "posts from categories\" selected for the slider."
+#~ msgstr ""
+#~ "VIGA: Peate valima vähemalt ühe kategooria kui teil on \"Näita postitusi "
+#~ "kategooriatest\" valitud slaideri jaoks."
+
+#~ msgid "ERROR: Invalid category selected for the slider categories."
+#~ msgstr "VIGA: Vale kategooria valitud Slaideri kategooriates."
+
+#~ msgid ""
+#~ "ERROR: Invalid option for the slider categories exclusion from posts "
+#~ "listing is specified."
+#~ msgstr ""
+#~ "VIGA: Vale valik slaideri kategooriate väljajätmine vastavatest teemadest "
+#~ "on täpsustatud."
+
+#~ msgid ""
+#~ "ERROR: The number of posts to displayed in the slider must be a an "
+#~ "integer value."
+#~ msgstr "VIGA: Postituste arv mida näitab slaideris peab olema täisarv."
+
+#~ msgid "ERROR: Invalid option for the slider image is specified."
+#~ msgstr "VIGA: Vale valik slaideri pildi jaoks on täpsustatud."
+
+#~ msgid "ERROR: Bad URL entered for the custom slider image URL."
+#~ msgstr "VIGA: Halb URL sisestatud erilise Slaideri pildi URLi asemel"
+
+#~ msgid "ERROR: Invalid option for the slider display style is specified."
+#~ msgstr "VIGA: Vale valik slaideri displei stiili jaoks"
+
+#~ msgid "ERROR: The value for slider height must be an integer."
+#~ msgstr "VIGA: Slaideri kõrgus peab olema täisarv."
+
+#~ msgid "ERROR: The value for slider speed must be an integer."
+#~ msgstr "VIGA: Slaideri kiirus peab olema täisarv."
+
+#~ msgid "ERROR: The value for slider transition speed must be an integer."
+#~ msgstr "VIGA: Slaideri ülemineku kiirus peab olema täisarv."
+
+#~ msgid "ERROR: Invalid slider animation."
+#~ msgstr "VIGA: Vale slaideri animatsioon."
+
+#~ msgid ""
+#~ "ERROR: Invalid category selected for the front page posts categories."
+#~ msgstr "VIGA: Vale kategooria, et esilehe postitusi manageerida."
+
+#~ msgid ""
+#~ "ERROR: Invalid option for the type of content to show in homepage panes."
+#~ msgstr "VIGA: Valisite vale tüübi materjali mida näitab kodulehe kastis."
+
+#~ msgid ""
+#~ "ERROR: The value for the number of latest posts to display in homepage "
+#~ "panes must be an integer."
+#~ msgstr ""
+#~ "VIGA: Uusimate postide arv mida näitab kodulehel peab olema täisarv."
+
+#~ msgid ""
+#~ "ERROR: Invalid category selected for the latest posts to show from in the "
+#~ "homepage panes."
+#~ msgstr ""
+#~ "VIGA: Vale kategooria valitud uusimate postituste näitamiseks kodulehe "
+#~ "paneelidelt."
+
+#~ msgid "ERROR: Invalid option for the comments option."
+#~ msgstr "VIGA: Vale valik kommentaaride valiku jaoks."
+
+#~ msgid "ERROR: Invalid option for the child page listings."
+#~ msgstr "VIGA: Vale valik  kommentaaride valiku jaoks."
+
+#~ msgid "ERROR: You must supply an URL for the custom RSS Feed."
+#~ msgstr "VIGA: Peate sisestama URLi erilise RSS Feedi jaoks."
+
+#~ msgid "ERROR: Bad URL entered for the custom RSS Feed URL."
+#~ msgstr "VIGA: Halb URL sisestatud erilise RSS Feed URLi jaoks."
+
+#~ msgid "ERROR: Bad URL entered for the %s URL."
+#~ msgstr "VIGA: Halb URL sisestatud %s URLi jaoks."
+
+#~ msgid "ERROR: Invalid option for the social sharing buttons location."
+#~ msgstr "VIGA: Vale valik sotsiaalsete jagamise nuppude asukoha leidmiseks."
+
+#~ msgid "ERROR: The value for the header image height must be an integer."
+#~ msgstr "VIGA: Peamine pildi kõrgus peab olema täisarvuline."
+
+#~ msgid "ERROR: Invalid option for the Search box location."
+#~ msgstr "Error: Vale valik otsingu kasti leidmiseks."
+
+#~ msgid "ERROR: Invalid option for the column mode."
+#~ msgstr "VIGA: Vale valik veergude jaoks."
+
+#~ msgid "ERROR: Invalid option for the bbPress column mode."
+#~ msgstr "VIGA: Vale valik bbPress veeru jaoks."
+
+#~ msgid ""
+#~ "ERROR: Invalid width for %s. Width value must be positive number without "
+#~ "units."
+#~ msgstr ""
+#~ "VIGA: Vale laius %s. Laius peab olema positiivne number ilma lisadeta."
+
+#~ msgid "ERROR: Invalid option for the post date display."
+#~ msgstr "VIGA: Vale valik postituse kuupäeva näitamiseks."
+
+#~ msgid ""
+#~ "ERROR: The number of columns to be displayed in the footer widget must be "
+#~ "a an integer value."
+#~ msgstr ""
+#~ "VIGA: Veergude number peab olema täisarvuline, et näha neid veebilehe "
+#~ "jalutsis."
+
+#~ msgid "ERROR: The width of the submenu must be a an integer value."
+#~ msgstr "VIGA: Alammenüü laius peab olema täisarvu väärtusega."
+
+#~ msgid "ERROR: Bad URL entered for the favicon URL."
+#~ msgstr "VIGA: Halb URL sisestatud favicon URLi asukohta."
+
+#~ msgid "ERROR: Invalid action hook selected widget action hooks."
+#~ msgstr "VIGA: Vale tegevus selekteeritud vidinate alt."
+
+#~ msgid ""
+#~ "Please confirm that you would like to uninstall the Graphene theme. All "
+#~ "of the theme's options in the database will be deleted."
+#~ msgstr ""
+#~ "Palun kinnita, et sa soovid Graphene teema deinstalleerida. Kõik teema "
+#~ "valikud databaasis kustutatakse."
+
+#~ msgid "Uninstall Theme"
+#~ msgstr "Deinstalleeri teema"
+
+#~ msgid "Graphene Theme Options"
+#~ msgstr "Graphene teema valikud"
+
+#~ msgid ""
+#~ "These are the global settings for the theme. You may override some of the "
+#~ "settings in individual posts and pages."
+#~ msgstr ""
+#~ "Need on globaalsed sätted selle teema jaoks. Te võite mõningad seadeid "
+#~ "ülekirjutada individuaalsete postituste ja lehtede alt. "
+
+#~ msgid "General"
+#~ msgstr "Üldine"
+
+#~ msgid "Display"
+#~ msgstr "Displei"
+
+#~ msgid "Colours"
+#~ msgstr "Värvid"
+
+#~ msgid "Advanced"
+#~ msgstr "Edasijõudnud"
+
+#~ msgid "Save Options"
+#~ msgstr "Salvestamise võimalused"
+
+#~ msgid "Need help?"
+#~ msgstr "Vajad abi?"
+
+#~ msgid "Also, find out how you can %s."
+#~ msgstr "Uuri välja kuidas sa saad %s."
+
+#~ msgid "support the Graphene theme"
+#~ msgstr "Toeta Graphene teemat."
+
+#~ msgid "Support the developer"
+#~ msgstr "Toeta arendajat"
+
+#~ msgid ""
+#~ "Developing this awesome theme took a lot of effort and time, months and "
+#~ "months of continuous voluntary unpaid work. If you like this theme or if "
+#~ "you are using it for commercial websites, please consider a donation to "
+#~ "the developer to help support future updates and development."
+#~ msgstr ""
+#~ "Selle ägeda teema arendamine nõudis palju tööd ja aega, kuid kuude järel "
+#~ "järjekindlat vabatahtlikku tasumata tööd. Kui teile meeldib see teema või "
+#~ "kui te kasutate seda kommertsiaal veebilehtede jaoks palun mõelge väikse "
+#~ "annetuse peale, et aidata arendajal edaspidi ka uuendusi võimaldada."
+
+#~ msgid "Graphene Usage Survey"
+#~ msgstr "Graphene kasutuse uuring."
+
+#~ msgid ""
+#~ "Help us to get to know you better. Take the Graphene theme usage survey "
+#~ "now! Every opinion counts towards making the theme better. The survey is "
+#~ "very short, and is completely anonymous."
+#~ msgstr ""
+#~ "Aita meil ennast paremini tundma õppida. Võta osa Graphene teema "
+#~ "uuringust kohe! Iga kommentaar loeb, et teha seda teemat paremaks. Uuring "
+#~ "on väga lühike ning täielikult anonüümne."
+
+#~ msgid "Take the survey"
+#~ msgstr "Võta osa uuringust"
+
+#~ msgid "Add-ons and plugins"
+#~ msgstr "Lisad ja pluginid"
+
+#~ msgid ""
+#~ "Add-ons are not shipped with the theme, but can be installed separately "
+#~ "to extend the theme's capability."
+#~ msgstr ""
+#~ "Lisad ei ole kohe teemaga kaasas, aga saab installeerida eraldi et "
+#~ "laiendada teema võimalusi või töövõimet."
+
+#~ msgid "Installed"
+#~ msgstr "Installeeritud"
+
+#~ msgid "Not installed"
+#~ msgstr "Ei ole installeeritud"
+
+#~ msgid "Learn more"
+#~ msgstr "Õpi veel"
+
+#~ msgid ""
+#~ "The new premium mobile theme that fuses elegant design with premium "
+#~ "features. It's a match of pixel-perfection and code-devilry."
+#~ msgstr ""
+#~ "Uus preemium mobiili teema, millel on elegantne disain preemium "
+#~ "valikutega. See on võrdlus perfektse pikselduse ja kuratlikult head "
+#~ "koodimise vahel."
+
+#~ msgid ""
+#~ "Mobile extension developed specifically for optimised display of your "
+#~ "site on mobile devices, such as iPhone and Android devices."
+#~ msgstr ""
+#~ "Mobiili pikendus arendatud spetsiifiliselt optimiseeritud mobiili lehtede "
+#~ "jaoks, iPhone või Androidide jaoks."
+
+#~ msgid "Plugins"
+#~ msgstr "Lisad"
+
+#~ msgid ""
+#~ "The plugins listed here are natively supported by the theme. All you need "
+#~ "to do is install the plugins and activate them."
+#~ msgstr ""
+#~ "Pluginid mis siia lisatud on on originaalselt toetatud teema poolt. Kõik "
+#~ "mis sa tegema pead on installima pluginid ja nad aktiveerima."
+
+#~ msgid "Activated"
+#~ msgstr "Aktiveeritud"
+
+#~ msgid "Options Presets"
+#~ msgstr "Valikute eelväljanägemine"
+
+#~ msgid ""
+#~ "The default settings for the theme is preconfigured for use in blogs. If "
+#~ "you're using this theme primarily for a normal website, or if you want to "
+#~ "reset the settings to their default values, you can apply one of the "
+#~ "available options presets below."
+#~ msgstr ""
+#~ "Teema sätted on sätitud blogikasutuse jaoks. Kui te kasutate seda teemat "
+#~ "tavalise veebilehe jaoks või kui te tahate seaded sättida tagasi nende "
+#~ "tavalisse väärtusesse või valida ühe võimalikest valikutest valikute "
+#~ "eelväljanägemise osas allpool."
+
+#~ msgid ""
+#~ "Note that you can still configure the individual settings after you apply "
+#~ "any preset."
+#~ msgstr ""
+#~ "Pane tähele, et sa saad ikka muuta üksikuid seadeid kui panete peale "
+#~ "ükskõik millise eelväljanägemise."
+
+#~ msgid "Select Options Preset"
+#~ msgstr "Vali Seadete eelväljanägemine"
+
+#~ msgid "Normal website"
+#~ msgstr "Normaalne veebileht"
+
+#~ msgid "Apply Options Preset"
+#~ msgstr "Säti Valikute eelväljanägemine"
+
+#~ msgid "Import"
+#~ msgstr "Import"
+
+#~ msgid "Import Theme options"
+#~ msgstr "Tähtsad Teema valikud"
+
+#~ msgid "Export"
+#~ msgstr "Eksport"
+
+#~ msgid "Export Theme options"
+#~ msgstr "Ekspordi teema valikud"
+
+#~ msgid "Uninstall theme"
+#~ msgstr "Deinstalleeri teema"
+
+#~ msgid ""
+#~ "<strong>Be careful!</strong> Uninstalling the theme will remove all of "
+#~ "the theme's options from the database. Do this only if you decide not to "
+#~ "use the theme anymore."
+#~ msgstr ""
+#~ "<strong>Ole ettevaatlik!</strong> Teema deinstalleerimisega tuleb kaasa "
+#~ "kõikide teema valikute kustutamine databaasist. Tee seda ainult siis kui "
+#~ "sa ei soovi seda teemat enam kasutada."
+
+#~ msgid ""
+#~ "If you just want to try another theme, there is no need to uninstall this "
+#~ "theme. Simply activate the other theme in the Appearance &gt; Themes "
+#~ "admin page."
+#~ msgstr ""
+#~ "Kui te tahate teist teemat proovida, siis te ei pea seda deinstalleerima. "
+#~ "Lihtsalt aktiveerige teine teema Välimuse ja &gt; Teemade adminni lehelt."
+
+#~ msgid ""
+#~ "Note that uninstalling this theme <strong>does not remove</strong> the "
+#~ "theme's files. To delete the files after you have uninstalled this theme, "
+#~ "go to Appearances &gt; Themes and delete the theme from there."
+#~ msgstr ""
+#~ "Mainin, et selle teema deinstalleerimisega <strong> Ei kustuta </strong> "
+#~ "teema faile. Et faile kustutada peale deinstalleerimist, mine "
+#~ "Väljanägemisse &gt; ja Teemad ja kustuta teema sealt."
+
+#~ msgid ""
+#~ "The preview will be updated when the \"Save Options\" button above is "
+#~ "clicked."
+#~ msgstr "See eelvaade uuendatakse kui \"Salvestamise\" nuppu vajutate."
+
+#~ msgid "Edit comment"
+#~ msgstr "Muuda kommentaari"
+
+#~ msgid "Link to this comment"
+#~ msgstr "Lingi see kommentaar"
+
+#~ msgid "Website:"
+#~ msgstr "Veebileht:"
+
+#~ msgid "Older posts &laquo;"
+#~ msgstr "Vanemad postitused &laquo;"
+
+#~ msgid "&raquo; Newer posts"
+#~ msgstr "&raquo; Uusimad postitused"
+
+#~ msgid "Fetch more items"
+#~ msgstr "Too veel asju"
+
+#~ msgid "No more items to fetch"
+#~ msgstr "Rohkem asju ei saa tuua"
+
+#~ msgid "No more comments to fetch"
+#~ msgstr "Rohkem kommentaare ei saa näidata"
+
+#~ msgid "Footer Widget Area"
+#~ msgstr "Alumine vidinate ala"
+
+#~ msgid "Front Page Footer Widget Area"
+#~ msgstr "Esilehe alumine vidina ala"
+
+#~ msgid "Header Widget Area"
+#~ msgstr "Ülemine vidina ala"
+
+#~ msgid "Add a warning message block"
+#~ msgstr "Lisa hoiatussõnumi blokeering"
+
+#~ msgid "Add an error message block"
+#~ msgstr "Lisa vea sõnumi blokeering"
+
+#~ msgid "Add a notice message block"
+#~ msgstr "Lisa teate sõnumi blokeering"
+
+#~ msgid "Add an important message block"
+#~ msgstr "Lisa tähtis sõnumi blokeering"
+
+#~ msgid "Add a pullquote"
+#~ msgstr "Lisa tõmbetsitaat"

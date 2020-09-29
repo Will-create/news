@@ -1,0 +1,20 @@
+.control-section-wptrt-button .accordion-section-title:focus,
+.control-section-wptrt-button .accordion-section-title:hover {
+    background-color:#fff
+}
+
+.control-section-wptrt-button .accordion-section-title .button {
+    margin-top: -4px;
+    font-weight: 400;
+    margin-left: 8px;
+    border: none;
+    box-shadow: none;
+    background: #e01212;
+    color: white;
+    padding: 0px 15px 1px;
+}
+
+.rtl .control-section-wptrt-button .accordion-section-title .button {
+    margin-left:0;
+    margin-right:8px
+}

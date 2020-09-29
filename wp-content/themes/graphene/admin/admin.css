@@ -1,0 +1,154 @@
+body {
+	background: #fff;
+}
+#wpcontent {
+	padding: 0;
+}
+.header {
+	padding: 20px;
+	text-shadow: 1px 1px 1px #fff;
+	background: #f1f1f1;
+	border-bottom: 1px solid #ddd;
+}
+.header img {
+	float: left;
+	margin-right: 20px;
+}
+.header a {
+	text-decoration: none;
+	font-weight: 600;
+}
+.header h2 {
+	font-family: "Open Sans", arial, sans-serif;
+	font-size: 3em;
+	font-weight: 300;
+	margin: 28px 0 15px 20px;
+}
+.header .ver {
+	font-style: italic;
+	color: #aaa;
+}
+.panels {
+	clear: both;
+}
+.panel {
+	box-sizing: border-box;
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	min-height: 300px;
+	float: left;
+	padding: 20px 25px;
+	font-size: 1.1em;
+	line-height: normal;
+}
+.panel-25 {
+	width: 25%;
+}
+.panel-50 {
+	width: 50%;
+}
+.panel.graphene-settings,
+.panel.support,
+.panel.contribute {
+	text-align: center;
+	padding: 50px 10px;
+}
+.panel.graphene-plus {
+	padding: 0;
+	border: none;
+}
+.panel.graphene-plus a {
+	display: block;
+	line-height: 0;
+}
+.panel.graphene-plus img {
+	max-width: 100%;
+	height: auto;
+}
+.panel.contribute {
+	padding: 50px 10%;
+}
+.panel.contribute,
+.panel.news {
+	height: 400px;
+}
+.panel .icon .fa {
+	font-size: 128px;
+}
+.panel h3 .fa {
+	font-size: 24px;
+	margin-right: 5px;
+}
+.graphene-news-list {
+	margin: 0;
+}
+.graphene-news-list li {
+	margin-bottom: 20px;
+	list-style: none;
+}
+.graphene-news-list h4 {
+	margin-bottom: -5px
+}
+.graphene-news-list a {
+	font-size: 1.1em;
+	text-decoration: none;
+}
+.graphene-news-list .news-item-date {
+	margin-left: 5px;
+	font-size: 0.8em;
+	color: #888;
+	background: #eee;
+	border-radius: 3px;
+	padding: 2px 5px;
+}
+.btn,
+.btn:hover,
+.btn:focus {
+	background: #83B0B0;
+	background: linear-gradient(#8EB7B7,#83B0B0);
+	border: none;
+	border-radius: 3px;
+	padding: 9px 20px 10px;
+	color: #fff;
+	font-weight: 600;
+	text-shadow: 1px 1px 0 #555;
+	text-shadow: 1px 1px 0 rgba(50,50,50,0.3);
+	height: auto;
+	text-decoration: none;
+}
+.btn-purple,
+.btn-purple:hover {
+	background: #4D3E7C;
+	background: linear-gradient(#4D3E7C,#604D99);
+}
+.btn .fa {
+	margin-right: 5px;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+
+
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+	.header img {
+		max-width: 30%;
+		height: auto;
+	}
+	.header h2 {
+		margin-top: 15px;
+	}
+	.panel {
+		height: auto !important;
+		min-height: 100px;
+	}
+	.panel-25,
+	.panel-50 {
+		width: 100%;
+		float: none;
+	}
+	.auto-fold #wpcontent {
+		padding-left: 0;
+	}
+}

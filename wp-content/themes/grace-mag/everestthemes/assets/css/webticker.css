@@ -1,0 +1,128 @@
+
+/*****news ticker*****/
+
+
+ .tickeroverlay-left{
+    display:block;
+    pointer-events:none;
+    position:absolute;
+    z-index:30;
+    height:12px;
+    width:150px;
+    top:0;
+    left:-2px;
+  }
+
+  .menu-bar .navbar-nav>li>a:hover{
+    transition:1s all;
+  }
+  .menu-bar .navbar-nav>li>.dropdown-menu
+  {
+
+    display:none;
+  }
+  .menu-bar .dropdown:hover .dropdown-menu{
+
+    display:block;
+
+  }
+
+  
+ .tickeroverlay-right{
+    display:block;
+    pointer-events:none;
+    position:absolute;
+    z-index:30;
+    height:12px;
+    width:150px;
+    top:0;
+    right:-2px;
+  }
+ .tickercontainer { /* the outer div */
+    background: transparent;
+    height: 25px; 
+    margin: 0; 
+    padding: 0;
+    overflow: hidden; 
+  }
+ .tickercontainer .mask { /* that serves as a mask. so you get a sort of padding both left and right */
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    top: 2px;
+    height:25px;
+    /*width: 718px;*/
+    overflow: hidden;
+
+  }
+  ul.newsticker { /* that's your list */
+  /*Transitions have been added in order set css3 transitions; and have linear easing. Changing these lines you might have unexpected results */
+  -webkit-transition: all 0s linear;
+  -moz-transition: all 0s linear;
+  -o-transition: all 0s linear;
+  transition: all 0s linear;
+  position: relative;
+  margin-left: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+}
+ ul.newsticker li {
+  float: left; /* important: display inline gives incorrect results when you check for elem's width */
+  margin: 0;
+  padding-right:40px;
+  line-height: 1;
+
+  /*background: #fff;*/
+}
+ ul.newsticker a {
+  white-space: nowrap;
+  padding: 0;
+  color: #333333;
+   font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  margin: 0 40px 0 0;
+  font-weight: normal;
+  margin-top:0px;
+} 
+ ul.newsticker a:hover{
+  text-decoration: none;
+  color: #e01212;
+}
+ ul.newsticker span {
+  margin: 0 10px 0 0;
+} 
+
+#webticker2{
+  float:right;
+}
+
+#webticker2 li {
+  float: right; /* important: display inline gives incorrect results when you check for elem's width */
+  margin: 0;
+  padding-left: 15px;
+  /*background: #fff;*/
+}
+
+
+.nt_title
+{
+  background:#fff;
+  color:#171717;
+  padding:0px; 
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:16px;
+}
+.nt_title i{color:#e01212;
+  padding-left:5px; 
+  padding-right: 10px; 
+  font-size: 18px;
+}
+
+.nt_wrapper{
+  position:relative;
+  margin-top:4px;
+}
+
+/*****news ticker*****/

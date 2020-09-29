@@ -1,0 +1,220 @@
+.wp-full-overlay-sidebar { 
+	width: 500px;
+} 
+.wp-full-overlay.expanded { 
+	margin-left: 500px;
+}
+.CodeMirror {
+	height: 200px;
+}
+.CodeMirror-code {
+	font-size: 11px;
+	line-height: 16px;
+}
+.customize-control .graphene-text input {
+	width: auto !important;
+}
+.customize-control select[multiple] {
+	width: 100%;
+	min-height: 150px;
+}
+.customize-control-radio label img {
+	vertical-align: middle;
+}
+#sub-accordion-section-graphene-general-front-page {
+	min-height: 600px;
+}
+#sub-accordion-section-graphene-display-columns-width input[type="text"] {
+	width: auto;
+}
+#sub-accordion-section-graphene-display-columns-width .customize-control-title {
+	display: block;
+	clear: both;
+	padding: 20px 0 10px;
+}
+.width-wrap-left,
+.width-wrap-center {
+	float: left;
+}
+.width-wrap-center {
+	margin-left: 28%;
+}
+.width-wrap-right {
+	float: right;
+}
+.input-slider {
+	padding-top: 10px;
+	clear: both;
+}
+.hide {
+	display: none;
+}
+.graphene-sortable,
+.repeatable-item {
+	padding: 10px;
+	border: 1px solid #ddd;
+	background: #fff;
+	position: relative;
+}
+.graphene-sortable .customize-control-title .fa {
+	font-size: 24px;
+	padding-right: 5px;
+}
+.status-icon {
+	font-size: 18px;
+	margin-left: 5px;
+}
+.status-icon.fa-check {
+	color: #4CAF50;
+}
+.graphene-sortable .delete,
+.graphene-repeatable .delete,
+.graphene-sortable .move {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	font-size: 16px;
+}
+.graphene-sortable .delete {
+	right: 35px;
+}
+.graphene-repeatable .delete {
+	top: 15px;
+}
+.graphene-sortable .move {
+	cursor: move;
+}
+.customize-control .inline-field {
+	margin-bottom: 10px;
+}
+.customize-control .inline-field label {
+	clear: both;
+	width: 20%;
+	display: inline-block;
+}
+.customize-control .inline-field input[type="text"],
+.customize-control .inline-field select {
+	display: inline-block;
+	width: 79%;
+	margin: 4px 0 0 0;
+}
+.customize-control .graphene-repeatable .inline-field input[type="text"] {
+	width: 70%;
+}
+.graphene-add-sortable {
+	padding: 10px;
+	margin-top: 40px;
+	border: 1px dashed #ccc;
+}
+.add-repeatable-item {
+	border: 1px dashed #ccc;
+	background: none;
+}
+.add-repeatable-item .delete {
+	display: none;
+}
+.graphene-add-sortable .button {
+	margin-top: 10px;
+}
+.slider-legend {
+	margin-top: 5px;
+}
+.slider-legend.alignleft,
+.slider-legend.alignright {
+	width: 20%;
+}
+.slider-legend.alignright {
+	text-align: right;
+}
+.slider-legend.alignmiddle {
+	float: left;
+	width: 60%;
+	text-align: center;
+}
+#customize-control-graphene_settings-posts_layout label img,
+#customize-control-graphene_settings-slider_display_style label img {
+	display: block;
+}
+#customize-control-graphene_settings-posts_layout label span,
+#customize-control-graphene_settings-slider_display_style label span,
+.graphene-plus-feature span {
+	display: block;
+	width: 150px;
+	padding: 2px 5px;
+	box-sizing: border-box;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	background: #4c315a;
+	color: #fff;
+	margin-top: -2em;
+}
+.graphene-plus-feature {
+	border: 1px dashed #bbb;
+	box-sizing: border-box;
+	width: 100%;
+}
+.graphene-plus-feature a {
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.graphene-plus-feature span {
+	width: 100%;
+	width: calc(100% + 2px);
+	font-size: 12px;
+	padding: 5px 10px;
+	margin: -1px -1px 0;
+}
+#customize-controls .graphene-plus-feature img {
+	margin: 10px;
+	opacity: 0.6;
+	max-width: 96%;
+	height: auto;
+}
+.new-label {
+	font-size: 0.8em;
+	text-transform: uppercase;
+	border-radius: 3px;
+	color: #fff;
+	background: #0073aa;
+	padding: 1px 5px 2px;
+	margin-left: 5px;
+}
+#customize-controls .image-preview img {
+	max-width: 150px;
+	height: auto;
+}
+#customize-controls .image-preview {
+	margin-left: 15px;
+	display: inline-block;
+	vertical-align: text-top;
+}
+#customize-controls .image-placeholder {
+	display: block;
+	width: 150px;
+	height: 50px;
+	border: 1px dashed #ddd;
+}
+.customize-control .customize-inside-control-row.hide-radio {
+	margin-left: 0;
+	margin-right: 10px;
+	display: inline-block;
+}
+.customize-control-radio .hide-radio input {
+	margin-left: -9999em;
+}
+.customize-control-radio .hide-radio label {
+	display: inline-block;
+	width: 60px;
+	height: 40px;
+	overflow: hidden;
+}
+#customize-controls .customize-control-radio .hide-radio label img {
+	float: left;
+	max-width: none;
+}
+#customize-controls .customize-control-radio .hide-radio input:checked ~ img {
+	float: right;
+}

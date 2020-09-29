@@ -1,0 +1,70 @@
+=== v1.1.0 : June 18, 2020 ===
+
+- Fixed missing "Tested up to" and "Requires PHP" in stylesheet
+
+=== v1.0.9 : January 17, 2020 ===
+
+- Fixed Breadcrumb issue
+- Fixed Design issue
+
+=== v1.0.8 : January 05, 2020 ===
+
+- Fixed Google Structured Data
+
+=== v1.0.7 : December 26, 2019 ===
+
+- Fixed background color/image issuse
+- Added customizer options
+- Fixed design issue
+
+=== v1.0.6 : December 03, 2019 ===
+
+- Design updated
+
+=== v1.0.5 : November 22, 2019 ===
+
+- Updated welcome page
+- Added typography option
+- Removed unused files
+
+=== v1.0.4 : November 19, 2019 ===
+
+- Updated RTL
+- Fixed minor issues
+- Updated license
+- Added non minified files
+
+=== v1.0.3 : November 17, 2019 ===
+
+- Added sticky news
+- Updated welcome page
+
+=== v1.0.2 : November 14, 2019 ===
+
+- Added options on custom widgets
+- Added primary color option
+- Removed unwanted codes and comments
+- Removed contact form 7 recommendation
+- Fixed design issue
+- Added rtl support
+- Added sticky sidebar
+- Added options in customizer
+- Added welcome page
+- Screenshot changed
+- Image license, Description updated
+
+=== v1.0.1 : August 15, 2019 ===
+
+- Readme.txt updated
+- Style.css updated
+- Missing css added
+- UGAAM plugin recommendation removed
+- Customizer Upsell file changed
+- Fixed missing translatation text
+- Unused files deleted
+- Added images for layouts
+- Updated language pot file
+
+=== v1.0.0 : August 15, 2019 ===
+
+- Initial release
